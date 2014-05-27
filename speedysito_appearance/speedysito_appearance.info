@@ -14,3 +14,4 @@ features[features_api][] = api:2
 features[variable][] = admin_theme
 features[variable][] = blockify_blocks
 features[variable][] = node_admin_theme
+no autodetect = 1

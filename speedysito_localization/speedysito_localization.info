@@ -15,3 +15,4 @@ features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[language][] = en
 features[language][] = it
+no autodetect = 1

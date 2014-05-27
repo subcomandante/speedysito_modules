@@ -41,3 +41,4 @@ features[variable][] = page_title_type_main_page
 features[variable][] = page_title_type_main_page_showfield
 features_exclude[dependencies][features] = features
 features_exclude[dependencies][menu] = menu
+no autodetect = 1
