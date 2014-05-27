@@ -21,10 +21,10 @@ function speedysito_website_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
+      'speedysito_website' => array(
+        'region' => 'header_top',
+        'status' => 1,
+        'theme' => 'speedysito_website',
         'weight' => 0,
       ),
     ),
@@ -41,10 +41,10 @@ function speedysito_website_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
+      'speedysito_website' => array(
+        'region' => 'preface',
+        'status' => 1,
+        'theme' => 'speedysito_website',
         'weight' => 0,
       ),
     ),
@@ -61,10 +61,10 @@ function speedysito_website_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
+      'speedysito_website' => array(
         'region' => 'header',
         'status' => 1,
-        'theme' => 'bartik',
+        'theme' => 'speedysito_website',
         'weight' => 0,
       ),
     ),
