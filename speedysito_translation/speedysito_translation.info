@@ -1,0 +1,16 @@
+name = SpeedySito Translation
+description = SpeedySito interface translation
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_translation
+dependencies[] = i18n_node
+dependencies[] = speedysito_localization
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = language_default
+features[variable][] = language_negotiation_language
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][strongarm] = strongarm
+no autodetect = 1

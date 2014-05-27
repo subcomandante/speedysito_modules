@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SpeedySito Translation feature.
+ */
+
+include_once 'speedysito_translation.features.inc';

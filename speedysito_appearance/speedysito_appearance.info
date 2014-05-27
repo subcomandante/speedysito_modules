@@ -1,0 +1,16 @@
+name = SpeedySito Appearance
+description = SpeedySito Appearance.
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_appearance
+dependencies[] = blockify
+dependencies[] = ctools
+dependencies[] = skinr
+dependencies[] = speedysito_core
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = admin_theme
+features[variable][] = blockify_blocks
+features[variable][] = node_admin_theme

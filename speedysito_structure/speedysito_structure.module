@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SpeedySito Structure feature.
+ */
+
+include_once 'speedysito_structure.features.inc';

@@ -1,0 +1,10 @@
+name = SpeedySito Devel
+description = SpeedySito development tools
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha2
+project = speedysito_devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+features[features_api][] = api:2
