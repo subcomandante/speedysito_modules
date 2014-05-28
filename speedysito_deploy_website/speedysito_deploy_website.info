@@ -29,3 +29,4 @@ features[variable][] = site_frontpage
 features[variable][] = site_name
 features[variable][] = site_slogan
 features[variable][] = theme_default
+features[variable][] = theme_speedysito_website_settings
