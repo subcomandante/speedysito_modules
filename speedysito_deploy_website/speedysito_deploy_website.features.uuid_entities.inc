@@ -38,6 +38,12 @@ function speedysito_deploy_website_uuid_default_entities() {
     'translate' => 0,
     'type' => 'main_page',
     'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'homep',
+        'language' => 'it',
+      ),
+    ),
     'uuid' => 'b40c4441-a007-45ef-bf08-e7df7669396c',
   );
 
