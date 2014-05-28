@@ -208,6 +208,14 @@ function speedysito_deploy_website_uuid_default_entities() {
           'format' => 'editor',
           'summary' => '',
           'value' => '<p>Ne abbiamo scelto solo uno per ciascuna categoria (ed è stata dura!), ma alla fine ecco una selezione dei nostri modelli preferiti:</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Puoi scegliere tra molti modelli tematici e personalizzarli nei testi e nella grafica.</p>
+
+<p>Vuoi saperne di più? Contattaci!</p>
 ',
         ),
       ),
