@@ -5,6 +5,7 @@ package = SpeedySito
 version = 7.x-1.0-alpha4
 project = speedysito_structure
 dependencies[] = ctools
+dependencies[] = file
 dependencies[] = node
 dependencies[] = page_title
 dependencies[] = speedysito_localization
