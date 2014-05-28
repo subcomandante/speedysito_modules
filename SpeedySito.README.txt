@@ -1,0 +1,371 @@
+SPEEDYSITO
+
+LIBRARIES
+http://underscorejs.org/
+http://underscorejs.org/underscore-min.js
+
+http://backbonejs.org/
+http://backbonejs.org/backbone-min.js
+
+http://ckeditor.com/builder
+http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.0/ckeditor_4.4.0_full.zip
+
+
+cd sites/all/
+mkdir libraries
+mkdir underscore
+mkdir backbone
+cd underscore
+wget http://underscorejs.org/underscore-min.js
+cd ../backbone
+wget http://backbonejs.org/backbone-min.js
+
+cd ..
+wget http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
+unzip ckeditor_3.6.6.1.zip
+
+Configurarion -> Text Format -> Aggiungere uno Editor senza filtri
+
+
+CKEditor with Edit:
+Custom build: Shared Space e Source Dialog
+
+CKFinder in CKEditor:
+https://drupal.org/node/728210
+
+
+
+Panels vs Context
+http://www.lullabot.com/blog/article/assembling-pages-drupal
+
+
+
+
+http://ftp.drupal.org/files/projects/ctools-7.x-1.4.tar.gz
+http://ftp.drupal.org/files/projects/entity-7.x-1.5.tar.gz
+http://ftp.drupal.org/files/projects/globalredirect-7.x-1.5.tar.gz
+http://ftp.drupal.org/files/projects/libraries-7.x-2.2.tar.gz
+http://ftp.drupal.org/files/projects/module_filter-7.x-2.0-alpha2.tar.gz
+http://ftp.drupal.org/files/projects/site_verify-7.x-1.1.tar.gz
+http://ftp.drupal.org/files/projects/token-7.x-1.5.tar.gz
+http://ftp.drupal.org/files/projects/pathauto-7.x-1.2.tar.gz
+http://ftp.drupal.org/files/projects/subpathauto-7.x-1.3.tar.gz	(Funziona?)
+http://ftp.drupal.org/files/projects/views-7.x-3.7.tar.gz
+http://ftp.drupal.org/files/projects/webform-7.x-4.0-rc3.tar.gz
+http://ftp.drupal.org/files/projects/xmlsitemap-7.x-2.0.tar.gz
+
+http://ftp.drupal.org/files/projects/features-7.x-2.x-dev.tar.gz
+http://ftp.drupal.org/files/projects/strongarm-7.x-2.x-dev.tar.gz
+http://ftp.drupal.org/files/projects/configuration-7.x-2.x-dev.tar.gz (http://ftp.drupal.org/files/projects/xautoload-7.x-4.5.tar.gz)
+
+
+/* ****************************************************************************** */
+
+Installazione di base:
+cd /dfs/Devel/speedysito/build.speedysito.it # BUILD
+cd /dfs/Devel/speedysito/test.speedysito.it  # TEST
+drush dl drupal-7 --drupal-project-rename=www
+cd www
+# BUILD
+drush site-install minimal --site-name=SpeedySito --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://speedysitobuild:speedysitobuild@localhost/speedysitobuild -y
+# TEST
+drush site-install minimal --site-name=SpeedySito --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://speedysitotest:speedysitotest@localhost/speedysitotest -y
+
+# Create Manager and Editor user
+#drush user-create manager --mail="manager@speedysito.it" --password="speedysito"
+#drush user-create editor --password="speedysito"
+
+
+
+# SpeedySito MODULES
+cd sites/all/modules/
+#cp /dfs/Devel/speedysito/speedysito/modules.tgz .
+#tar xzf modules.tgz
+#for file in `ls *.tar`; do tar xvf $file; done
+#rm -f *.tar
+#rm -f modules.tgz
+for file in `ls /dfs/Devel/speedysito/speedysito/modules`; do ln -s /dfs/Devel/speedysito/speedysito/modules/$file .; done
+
+# SpeedySito LIBRARIES
+cd ..
+mkdir libraries
+cd libraries
+# cp /dfs/Devel/speedysito/DOCUMENTATION/libraries.tgz .
+cp /dfs/Devel/speedysito/speedysito/libraries.tgz .
+tar xzf libraries.tgz
+rm -f libraries.tgz
+
+# SpeedySito THEMES
+#cd ../themes
+#drush dl zen
+#cp /dfs/Devel/speedysito/DOCUMENTATION/themes/speedysito.tgz .
+#tar xzvf speedysito.tgz
+
+# SpeedySito GIT THEME
+cd ../themes
+drush dl zen
+# git clone https://github.com/subcomandante/speedysito_core_theme.git speedysito
+#ln -s /dfs/Devel/speedysito/themes/speedysito .
+#ln -s /dfs/Devel/speedysito/themes/speedysito_website .
+ln -s /dfs/Devel/speedysito/speedysito/themes/speedysito .
+ln -s /dfs/Devel/speedysito/speedysito/themes/speedysito_website .
+
+# Setting web permissions
+cd ../../../..
+chown -R www-data:www-data www
+cd www
+
+
+#drush en speedysito_devel -y
+#drush en speedysito_devel_extras -y	# Manca dipendenza features_extra
+
+#drush dl features-7.x-2.x-dev
+#drush dl strongarm-7.x-2.x-dev
+
+drush en speedysito_setup -y
+
+
+drush en speedysito_core -y
+drush en speedysito_appearance -y
+drush en speedysito_localization -y
+drush en speedysito_structure -y
+drush en speedysito_administration -y
+drush en speedysito_editor -y
+drush en speedysito_translation -y
+
+#drush en speedysito_devel -y
+
+drush dl features_extra		# bug di features? non lo vede come dipendenza
+drush en speedysito_export -y
+
+Da spostare in setup
+# Create Manager and Editor user
+drush user-create manager --mail="manager@speedysito.it" --password="speedysito"
+drush user-create editor --password="speedysito"
+
+drush user-add-role "Site manager" manager
+drush user-add-role "Content editor" editor
+
+# Import/Export
+
+# DEPLOY (speedysito_export, plan speedysito_content_export fetch only, no endpoints)
+https://drupal.org/node/1982890
+# ATTENZIONE: Come da https://drupal.org/node/1406134 Deploy ha bisogno di una versione di entity dependency superiore alla alpha1 (correntemente default)!
+drush dl entity_dependency-7.x-1.x-dev
+
+# pre feature
+drush dl deploy
+drush en deploy_ui -y
+structure->deploy->plans->add (SpeedySito Content Export, fetch only, no delete)
+
+drush en speedysito_export
+drush en speedysito_deploy_website
+
+deploy
+  uuid
+  uuid_path ?
+  entity !
+  entity_dependency
+deploy_ui
+
+
+entity_uuid , commerce_uuid ?
+
+
+
+
+
+
+
+# UUID_FEATURES
+drush en speedysito_import_export -y
+drush en speedysito_test -y
+
+drush l10n-update
+drush cc all
+
+drush cc all
+
+# SpeedySito Official Website
+#drush en speedysito_example_content -y
+drush en speedysito_website -y
+
+
+# Cose da fare a mano perchè non funzionano con features:
+Selezionare lingua di default e rimuovere il path prefix. (da fare con reset di features)
+Selezionare il tema di default SpeedySito
+
+# Cose da fare a mano ma poi verificare con drush
+Aggiornamento di massa dei path alias.
+
+# TODO: Modules dependencies
+Move field_ui from core to administration
+
+
+
+Per le traduzioni:
+ricreare le stringe di traduzione
+
+
+
+
+
+
+
+
+Per creare il primo modulo, SpeedySito Devel, abbiamo bisogno di scaricare per la prima volta i moduli a mano.
+drush dl features
+drush en features -y
+drush dl strongarm
+drush en strongarm -y
+drush dl diff
+drush en diff -y
+chown
+
+
+
+Configurazioni di SpeedySito con Features e Strongarm (+diff)
+
+SpeedySito Devel:
+SpeedySito development tools
+Features 	7.x-2.0		(Creazione bundles di moduli per obiettivi specifici, per esempio WYSIWYG o Galleria etc..)
+Strongarm	7.x-2.0		(Esposizione Variables a Features e gestione ripristino autonomo)
+Diff		7.x-3.2		(Serve per vedere le differenze nella configurazione salvata delle variabili da Strongarm vs quella attuale)
+
+
+SpeedySito Core:
+SpeedySito modules, roles and configurations depending only on drupal
+Modules: strongarm
+Roles: Manager, Editor
+Configurations: Clean URLs
+
+
+SpeedySito Structure:
+SpeedySito content types
++ Main page (permissions and variables)
+TODO: News, etc..
+Forse da spostare nel core o da spezzettare nelle varie funzionalità?
+
+
+SpeedySito Administration:
+SpeedySito administration interface, roles and configurations depending only on drupal
+Menu
+Toolbar
+Overlay
+Contextual links
+Module filter
+Configurations: Administration theme (edit/create nodes), manager role and permissions.
+
+
+SpeedySito Editor
+SpeedySito editor WYSIWYG
+CKEditor
+
+
+
+
+Translation ??
+drush dl l10n_update-7.x-2.x
+Multilingual content.... (Node types translation)
+
+
+
+Installation
+drush en speedysito_devel -y
+drush en speedysito_core -y
+drush en speedysito_administration -y
+drush en speedysito_editor -y
+
+chown -R www-data:www-data www
+
+CONCETTI:
+I ruoli di base di speedysito vanno aggiunti al core ed i permessi specifici ai vari moduli
+I CONTENT TYPES VANNO TRADOTTI TENENDO INGLESE COME DEFAULT, ALTRIMENTI LA TRADUZIONE PRESENTA IT e poi EN
+
+
+
+
+LOCALIZATION (NON SERVE)
+https://drupal.org/documentation/install/language
+https://localize.drupal.org/translate/languages/it
+Studiare: https://drupal.org/project/tmgmt
+
+    Download the language file from the translation server.
+    You will find a directory named translations inside the directory of the profile you will be using. Normally you use standard profile, so you can use profiles/standard/translations. Move the downloaded .po file inside this folder.
+    Install Drupal as per usual by visiting http://[site_URL]/install.php.
+
+drush dl drupal-7 --drupal-project-rename=www
+cd www/profiles/minimal/translations/
+wget http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.28.it.po
+drush site-install minimal --locale=it --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://speedysitobuild:speedysitobuild@localhost/speedysitobuild -y
+
+
+
+
+MODULI DA INTEGRARE SE NECESSARIO:
+pathologic
+publishcontent
+maxlength
+styleguide
+field_collection (and field_group)
+ds
+calendar
+config_builder
+services
+
+https://drupal.org/project/layout
+
+
+CONTENT DEPLOY?
+feautures
+drush dl deploy
+
+
+Riferimenti:
+http://drupal.stackexchange.com/questions/27506/exporting-block-settings-in-a-feature-drupal-7
+features_extras
+https://drupal.org/project/entity
+https://drupal.org/project/uuid
+https://drupal.org/project/uuid_features
+
+
+
+Devel prima
+ Bulk Export
+Configuration builder
+Configuration builder UI
+Chaos tools
+Diff
+Features
+Form builder
+Options element
+Strongarm
+
+Devel dopo
+ Diff
+Features
+Strongarm
+
+
+
+
+Later improvements:
+https://drupal.org/project/navbar
+
+
+TODO:
+Administrative theme favicon.. (maybe do our admin theme?)
+
+
+
+
+
+
+
+
+Imported node 1: Un Prodotto vincente per Aziende vincenti !
+Imported node 2: Entra nel nostro team e lavora con noi!
+Imported node 3: Home
+Imported node 4: Muovi i primi passi nella rete con la versione BASIC
+
+
