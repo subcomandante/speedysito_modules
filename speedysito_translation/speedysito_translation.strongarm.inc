@@ -23,9 +23,9 @@ function speedysito_translation_strongarm() {
     'plurals' => '2',
     'formula' => '($n!=1)',
     'domain' => '',
-    'prefix' => 'it',
+    'prefix' => '',
     'weight' => '0',
-    'javascript' => '1x8TYZglqpKpiz5do1y0t0dn331DlshcDTST-uK4W94',
+    'javascript' => 'XgJTkefPvGe_373RcS0S_It_ogGWi4nG6qOAdL3L2_8',
   );
   $export['language_default'] = $strongarm;
 

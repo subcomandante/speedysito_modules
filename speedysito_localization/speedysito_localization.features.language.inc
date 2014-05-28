@@ -33,7 +33,7 @@ function speedysito_localization_locale_default_languages() {
     'plurals' => 2,
     'formula' => '($n!=1)',
     'domain' => '',
-    'prefix' => 'it',
+    'prefix' => '',
     'weight' => 0,
   );
   return $languages;
