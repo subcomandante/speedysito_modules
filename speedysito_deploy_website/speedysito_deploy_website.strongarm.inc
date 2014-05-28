@@ -67,7 +67,7 @@ function speedysito_deploy_website_strongarm() {
       'html5' => 'html5',
       'meta' => 'meta',
     ),
-    'zen_rebuild_registry' => 1,
+    'zen_rebuild_registry' => 0,
     'zen_wireframes' => 0,
   );
   $export['theme_speedysito_website_settings'] = $strongarm;
