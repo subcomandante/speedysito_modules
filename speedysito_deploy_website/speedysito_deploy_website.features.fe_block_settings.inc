@@ -21,12 +21,6 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'speedysito_website' => array(
         'region' => 'header_top',
         'status' => 1,
@@ -47,12 +41,6 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'speedysito_website' => array(
         'region' => 'preface',
         'status' => 1,
@@ -73,12 +61,6 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'speedysito_website' => array(
         'region' => '',
         'status' => 0,
@@ -99,12 +81,6 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'speedysito_website' => array(
         'region' => 'header',
         'status' => 1,

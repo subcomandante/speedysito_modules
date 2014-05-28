@@ -232,6 +232,110 @@ function speedysito_deploy_website_uuid_default_entities() {
     ),
     'uuid' => '2f65c920-7a27-4610-bb16-a5472fdcd5c3',
   );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/d2e802ea-58d1-454b-90d1-e6a10c34f9e4',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>Diventa rivenditore</h2>
+
+<p>Siamo sempre alla ricerca di referenti commerciali di zona con i quali sviluppare rapporti di lavoro.</p>
+
+<p><strong>E\' possibile distribuire il nostro prodotto in diversi modi:</strong></p>
+
+<ul>
+	<li>Liberi professionisti che hanno o vogliono sviluppare un portafoglio clienti</li>
+	<li>Punti vendita prodotti e servizi per aziende distribuzione dedicata ai negozi tradizionali</li>
+	<li>Convenzioni dedicate a grandi gruppi di acquisto</li>
+</ul>
+
+<p><em>Qualunque sia la tecnica distributiva scelta, garantiamo alte percentuali e bonus.</em></p>
+
+<p>&nbsp;</p>
+
+<h3>Per maggiori informazioni compila il seguente modulo</h3>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'Rivenditori',
+    'promote' => 1,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'Entra nel nostro team e lavora con noi!',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'webform',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'rivenditori',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => 'd2e802ea-58d1-454b-90d1-e6a10c34f9e4',
+    'webform' => array(
+      'nid' => 4,
+      'confirmation' => '',
+      'confirmation_format' => NULL,
+      'redirect_url' => '<confirmation>',
+      'status' => 1,
+      'block' => 0,
+      'teaser' => 0,
+      'allow_draft' => 0,
+      'auto_save' => 0,
+      'submit_notice' => 1,
+      'submit_text' => '',
+      'submit_limit' => -1,
+      'submit_interval' => -1,
+      'total_submit_limit' => -1,
+      'total_submit_interval' => -1,
+      'record_exists' => TRUE,
+      'roles' => array(
+        0 => 1,
+        1 => 2,
+      ),
+      'emails' => array(),
+      'components' => array(
+        1 => array(
+          'nid' => 4,
+          'cid' => 1,
+          'pid' => 0,
+          'form_key' => 'nome_e_cognome',
+          'name' => 'Nome e Cognome',
+          'type' => 'textfield',
+          'value' => '',
+          'extra' => array(
+            'title_display' => 'before',
+            'private' => 0,
+            'disabled' => 0,
+            'unique' => 0,
+            'conditional_operator' => '=',
+            'width' => '',
+            'maxlength' => '',
+            'field_prefix' => '',
+            'field_suffix' => '',
+            'description' => '',
+            'attributes' => array(),
+            'conditional_component' => '',
+            'conditional_values' => '',
+          ),
+          'mandatory' => 1,
+          'weight' => 0,
+          'page_num' => 1,
+        ),
+      ),
+    ),
+  );
 
   return $entities;
 }
