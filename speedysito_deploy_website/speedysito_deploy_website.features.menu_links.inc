@@ -10,6 +10,24 @@
 function speedysito_deploy_website_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_basic:node/5
+  $menu_links['main-menu_basic:node/5'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/5',
+    'router_path' => 'node/%',
+    'link_title' => 'Basic',
+    'options' => array(
+      'identifier' => 'main-menu_basic:node/5',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_il-prodotto:node/2',
+  );
   // Exported menu link: main-menu_home:node/1
   $menu_links['main-menu_home:node/1'] = array(
     'menu_name' => 'main-menu',
@@ -39,7 +57,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 0,
+    'has_children' => 1,
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
@@ -80,6 +98,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Basic');
   t('Home');
   t('Il prodotto');
   t('Rivenditori');

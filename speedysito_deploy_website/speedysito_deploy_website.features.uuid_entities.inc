@@ -507,6 +507,59 @@ Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione
       ),
     ),
   );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/37ed9268-6a86-47f7-bc35-d730d746c883',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>SpeedySito Basic</h2>
+
+<p>Il pacchetto BASIC è tutto quello che serve al libero professionista e alla piccola impresa per iniziare a muovere i suoi primi passi nella rete.</p>
+
+<p>Ha già tutto quello che serve: un dominio a scelta (.it, .com, .net...) compreso nel prezzo, uno spazio web da 1GB per contenere tutti i vostri dati, e una serie di moduli accessori tra i più richiesti.</p>
+
+<p>Inoltre è semplicissimo da creare e da aggiornare grazie alla struttura precaricata, che dovrete solo completare con le vostre informazioni.</p>
+
+<h3>Funzionalità incluse</h3>
+
+<ul>
+	<li>Gestione menù completamente personalizzata</li>
+	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
+	<li>Gestione degli allegati</li>
+	<li>Disposizione dei contenuti personalizzabile</li>
+	<li>Aspetto grafico personalizzabile</li>
+	<li>Backup, Restore e Migrazione del sito</li>
+</ul>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'SpeedySito Basic',
+    'promote' => 1,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'Muovi i primi passi nella rete con la versione BASIC',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'main_page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'prodotto/speedysito-basic',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => '37ed9268-6a86-47f7-bc35-d730d746c883',
+  );
 
   return $entities;
 }
