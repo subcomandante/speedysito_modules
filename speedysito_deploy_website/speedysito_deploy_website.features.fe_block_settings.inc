@@ -65,7 +65,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
         'region' => 'preface',
         'status' => 1,
         'theme' => 'speedysito_website',
-        'weight' => 0,
+        'weight' => -9,
       ),
     ),
     'title' => '',

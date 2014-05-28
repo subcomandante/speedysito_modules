@@ -207,7 +207,7 @@ function speedysito_deploy_website_uuid_default_entities() {
         0 => array(
           'format' => 'editor',
           'summary' => '',
-          'value' => '<p>I migliori!</p>
+          'value' => '<p>Ne abbiamo scelto solo uno per ciascuna categoria (ed è stata dura!), ma alla fine ecco una selezione dei nostri modelli preferiti:</p>
 ',
         ),
       ),
@@ -219,7 +219,7 @@ function speedysito_deploy_website_uuid_default_entities() {
     'promote' => 1,
     'status' => 1,
     'sticky' => 0,
-    'title' => 'Siti di esempio',
+    'title' => 'SpeedySito, il sito giusto per la tua attività!',
     'tnid' => 0,
     'translate' => 0,
     'type' => 'main_page',
