@@ -1,7 +1,5 @@
 <?php
 /**
  * @file
- * Code for the SpeedySito Export feature.
+ * Drupal needs this blank file.
  */
-
-include_once 'speedysito_export.features.inc';

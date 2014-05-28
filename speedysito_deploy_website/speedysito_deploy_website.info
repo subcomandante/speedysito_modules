@@ -1,0 +1,12 @@
+name = SpeedySito Deploy Website
+description = SpeedySito Deploy Website.
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_deploy_website
+dependencies[] = ctools
+dependencies[] = deploy
+features[ctools][] = deploy:deploy_plans:1
+features[deploy_plans][] = speedysito_content_export
+features[features_api][] = api:2
+features[uuid_entities][] = speedysito_content_export

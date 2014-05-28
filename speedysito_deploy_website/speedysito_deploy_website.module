@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SpeedySito Deploy Website feature.
+ */
+
+include_once 'speedysito_deploy_website.features.inc';
