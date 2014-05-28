@@ -24,8 +24,26 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_il-prodotto:node/2',
+  );
+  // Exported menu link: main-menu_enterprise:node/7
+  $menu_links['main-menu_enterprise:node/7'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/7',
+    'router_path' => 'node/%',
+    'link_title' => 'Enterprise',
+    'options' => array(
+      'identifier' => 'main-menu_enterprise:node/7',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
     'parent_identifier' => 'main-menu_il-prodotto:node/2',
   );
   // Exported menu link: main-menu_home:node/1
@@ -61,6 +79,24 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_professional:node/6
+  $menu_links['main-menu_professional:node/6'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/6',
+    'router_path' => 'node/%',
+    'link_title' => 'Professional',
+    'options' => array(
+      'identifier' => 'main-menu_professional:node/6',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_il-prodotto:node/2',
   );
   // Exported menu link: main-menu_rivenditori:node/4
   $menu_links['main-menu_rivenditori:node/4'] = array(
@@ -99,8 +135,10 @@ function speedysito_deploy_website_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Basic');
+  t('Enterprise');
   t('Home');
   t('Il prodotto');
+  t('Professional');
   t('Rivenditori');
   t('Siti di esempio');
 

@@ -560,6 +560,84 @@ Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione
     ),
     'uuid' => '37ed9268-6a86-47f7-bc35-d730d746c883',
   );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/39a2637e-5c2d-4359-9e82-a7d8bc57577c',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>SpeedySito Professional</h2>
+
+<p>Il pacchetto PROFESSIONAL è quello che offre il miglior rapporto qualità / prezzo per una presenza web significativa.</p>
+
+<p>Ha tutti i servizi previsti dal pacchetto BASIC, più alcuni servizi avanzati, quali l\'utilizzo del protocollo ftp per trasferire i file, e la possibilità di personalizzare i moduli aggiuntivi. Questi ultimi vi permetteranno di personalizzare il sito implementando funzionalità specifiche (ad esempio, forum, blog, news, gallerie di immagini...).</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'SpeedySito Professional',
+    'promote' => 1,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'SpeedySito Professional',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'main_page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'prodotto/speedysito-professional',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => '39a2637e-5c2d-4359-9e82-a7d8bc57577c',
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/cc6e7d9e-3697-4f2b-aa1e-84f0fbd6ff1f',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>SpeedySito Enterprise</h2>
+
+<p>Lorem ipsum</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'SpeedySito Enterprise',
+    'promote' => 1,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'Nessun limite alle potenzialità del tuo sito',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'main_page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'prodotto/speedysito-enterprise',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => 'cc6e7d9e-3697-4f2b-aa1e-84f0fbd6ff1f',
+  );
 
   return $entities;
 }
