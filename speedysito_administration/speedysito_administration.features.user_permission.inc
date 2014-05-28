@@ -30,15 +30,5 @@ function speedysito_administration_user_default_permissions() {
     'module' => 'overlay',
   );
 
-  // Exported permission: 'access toolbar'.
-  $permissions['access toolbar'] = array(
-    'name' => 'access toolbar',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-      'Site manager' => 'Site manager',
-    ),
-    'module' => 'toolbar',
-  );
-
   return $permissions;
 }
