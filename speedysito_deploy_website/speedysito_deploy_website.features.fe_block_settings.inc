@@ -32,6 +32,46 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-speedysito_intro'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'speedysito_intro',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'preface',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => -10,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-speedysito_vantaggi'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'speedysito_vantaggi',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'preface',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => -9,
+      ),
+    ),
+    'title' => 'Il tuo nuovo sito web',
+    'visibility' => 1,
+  );
+
   $export['blockify-blockify-messages'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -65,7 +105,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
         'region' => 'preface',
         'status' => 1,
         'theme' => 'speedysito_website',
-        'weight' => -9,
+        'weight' => -8,
       ),
     ),
     'title' => '',
