@@ -32,6 +32,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-speedysito_info'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'speedysito_info',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'speedysito_website',
+        'weight' => -11,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['block-speedysito_intro'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -49,6 +69,66 @@ function speedysito_deploy_website_default_fe_block_settings() {
       ),
     ),
     'title' => '',
+    'visibility' => 1,
+  );
+
+  $export['block-speedysito_services_basic'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'speedysito_services_basic',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'region_services',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'SpeedySito Basic',
+    'visibility' => 1,
+  );
+
+  $export['block-speedysito_services_enterprise'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'speedysito_services_enterprise',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'region_services',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'SpeedySito Enterprise',
+    'visibility' => 1,
+  );
+
+  $export['block-speedysito_services_professional'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'speedysito_services_professional',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'region_services',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'SpeedySito Professional',
     'visibility' => 1,
   );
 
@@ -145,7 +225,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
         'region' => 'header',
         'status' => 1,
         'theme' => 'speedysito_website',
-        'weight' => 0,
+        'weight' => -10,
       ),
     ),
     'title' => '',

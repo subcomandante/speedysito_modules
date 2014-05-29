@@ -96,10 +96,10 @@ function speedysito_deploy_website_uuid_default_entities() {
 			<td style="text-align:center">ILLIMITATE</td>
 		</tr>
 		<tr>
-			<th scope="row">Spazio Web</th>
+			<th scope="row">Spazio Sito + Mail</th>
 			<td style="text-align:center">1 GB</td>
-			<td style="text-align:center">2 GB</td>
-			<td style="text-align:center">3 GB*</td>
+			<td style="text-align:center">3 GB</td>
+			<td style="text-align:center">5 GB (estendibile)</td>
 		</tr>
 		<tr>
 			<th scope="row">Banda disponibile</th>
@@ -209,7 +209,7 @@ function speedysito_deploy_website_uuid_default_entities() {
           'summary' => '',
           'value' => '<p>Ne abbiamo scelto solo uno per ciascuna categoria (ed è stata dura!), ma alla fine ecco una selezione dei nostri modelli preferiti:</p>
 
-<p>&nbsp;</p>
+<p><img alt="" class="attr__field_file_image_alt_text[und][0][value]__ attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__1 img__view_mode__default media-image" src="http://test.speedysito.it/sites/default/files/Architettura.jpg" /></p>
 
 <p>&nbsp;</p>
 
