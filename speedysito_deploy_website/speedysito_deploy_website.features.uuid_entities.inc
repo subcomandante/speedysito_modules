@@ -183,7 +183,7 @@ function speedysito_deploy_website_uuid_default_entities() {
     'promote' => 1,
     'status' => 1,
     'sticky' => 0,
-    'title' => 'Il prodotto',
+    'title' => 'Un Prodotto vincente per Aziende vincenti !',
     'tnid' => 0,
     'translate' => 0,
     'type' => 'main_page',
