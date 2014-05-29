@@ -82,7 +82,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'footer_top',
+        'region' => 'main_bottom',
         'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => -12,
@@ -102,7 +102,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'footer_top',
+        'region' => 'main_bottom',
         'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => -11,
@@ -122,7 +122,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'footer_top',
+        'region' => 'main_bottom',
         'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => -12,
