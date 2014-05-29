@@ -530,19 +530,32 @@ Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione
 
 <p>Il pacchetto BASIC è tutto quello che serve al libero professionista e alla piccola impresa per iniziare a muovere i suoi primi passi nella rete.</p>
 
-<p>Ha già tutto quello che serve: un dominio a scelta (.it, .com, .net...) compreso nel prezzo, uno spazio web da 1GB per contenere tutti i vostri dati, e una serie di moduli accessori tra i più richiesti.</p>
+<p>Ha già tutto quello che serve: un dominio a scelta (.it, .com, .net...) compreso nel prezzo, uno spazio web e mail da 1GB per contenere tutti i vostri dati, e una serie di moduli accessori tra i più richiesti.</p>
 
 <p>Inoltre è semplicissimo da creare e da aggiornare grazie alla struttura precaricata, che dovrete solo completare con le vostre informazioni.</p>
 
 <h3>Funzionalità incluse</h3>
 
 <ul>
+	<li>Registrazione del dominio</li>
+	<li>Mail illimitate</li>
+	<li>Spazio Web+Mail 1 GB</li>
 	<li>Gestione menù completamente personalizzata</li>
 	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
 	<li>Gestione degli allegati</li>
 	<li>Disposizione dei contenuti personalizzabile</li>
 	<li>Aspetto grafico personalizzabile</li>
 	<li>Backup, Restore e Migrazione del sito</li>
+</ul>
+
+<h3>Servizi opzionali</h3>
+
+<ul>
+	<li>Creazione Logo ed immagine coordinata</li>
+	<li>Ottimizzazione foto e video</li>
+	<li>Creazione testi</li>
+	<li>Piano di visibilità web</li>
+	<li>Creazione, gestione ed animazione di pagine dedicata sui Social Network (Facebook, You Tube etc.)</li>
 </ul>
 ',
         ),
@@ -584,6 +597,32 @@ Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione
 <p>Il pacchetto PROFESSIONAL è quello che offre il miglior rapporto qualità / prezzo per una presenza web significativa.</p>
 
 <p>Ha tutti i servizi previsti dal pacchetto BASIC, più alcuni servizi avanzati, quali l\'utilizzo del protocollo ftp per trasferire i file, e la possibilità di personalizzare i moduli aggiuntivi. Questi ultimi vi permetteranno di personalizzare il sito implementando funzionalità specifiche (ad esempio, forum, blog, news, gallerie di immagini...).</p>
+
+<h3>Funzionalità incluse</h3>
+
+<ul>
+	<li>Registrazione del dominio</li>
+	<li>Mail illimitate</li>
+	<li>Spazio Web+Mail 3 GB</li>
+	<li>Servizio FTP</li>
+	<li>Personalizzazione su misura dei moduli</li>
+	<li>Gestione menù completamente personalizzata</li>
+	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
+	<li>Gestione degli allegati</li>
+	<li>Disposizione dei contenuti personalizzabile</li>
+	<li>Aspetto grafico personalizzabile</li>
+	<li>Backup, Restore e Migrazione del sito</li>
+</ul>
+
+<h3>Servizi Opzionali</h3>
+
+<ul>
+	<li>Creazione Logo ed immagine coordinata</li>
+	<li>Ottimizzazione foto e video</li>
+	<li>Creazione testi</li>
+	<li>Piano di visibilità web</li>
+	<li>Creazione, gestione ed animazione di pagine dedicata sui Social Network (Facebook, You Tube etc.)</li>
+</ul>
 ',
         ),
       ),
@@ -621,7 +660,39 @@ Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione
           'summary' => '',
           'value' => '<h2>SpeedySito Enterprise</h2>
 
-<p>Lorem ipsum</p>
+<p>Il pacchetto ENTERPRISE è la soluzione ideale, tutto compreso, per la media e la grande impresa.</p>
+
+<p>La possibilità di personalizzare ogni ambito del sito, il servizio ftp prioritario, la banda illimitata e l\'assistenza dedicata, con risposta immediata alle proprie richieste, ne fanno la scelta ottimale per i siti professionali, ad alto volume di traffico e di accesso.</p>
+
+<p>Mantenendo soprattutto la semplicità operativa che caratterizza tutte le nostre soluzioni.</p>
+
+<h3><br />
+Funzionalità incluse</h3>
+
+<ul>
+	<li>Registrazione del dominio</li>
+	<li>Mail illimitate</li>
+	<li>Spazio Web+Mail 6 GB</li>
+	<li>Servizio FTP</li>
+	<li>Personalizzazione su misura dei moduli</li>
+	<li>Gestione menù completamente personalizzata</li>
+	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
+	<li>Gestione degli allegati</li>
+	<li>Disposizione dei contenuti personalizzabile</li>
+	<li>Aspetto grafico personalizzabile</li>
+	<li>Backup, Restore e Migrazione del sito</li>
+	<li>Servizio SSH per accesso da terminale</li>
+</ul>
+
+<h3>Servizi Opzionali</h3>
+
+<ul>
+	<li>Creazione Logo ed immagine coordinata</li>
+	<li>Ottimizzazione foto e video</li>
+	<li>Creazione testi</li>
+	<li>Piano di visibilità web</li>
+	<li>Creazione, gestione ed animazione di pagine dedicata sui Social Network (Facebook, You Tube etc.)</li>
+</ul>
 ',
         ),
       ),
