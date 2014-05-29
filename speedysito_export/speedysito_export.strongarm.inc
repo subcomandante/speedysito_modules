@@ -17,6 +17,7 @@ function speedysito_export_strongarm() {
   $strongarm->value = array(
     'menu-footer-menu' => 'menu-footer-menu',
     'main-menu' => 'main-menu',
+    'menu-secondary-menu' => 'menu-secondary-menu',
     'management' => 0,
     'navigation' => 0,
     'user-menu' => 0,
