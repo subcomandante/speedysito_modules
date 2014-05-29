@@ -82,10 +82,10 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'region_services',
+        'region' => 'footer_top',
         'status' => 1,
         'theme' => 'speedysito_website',
-        'weight' => -13,
+        'weight' => -12,
       ),
     ),
     'title' => 'SpeedySito Basic',
@@ -102,7 +102,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'region_services',
+        'region' => 'footer_top',
         'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => -11,
@@ -122,7 +122,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'region_services',
+        'region' => 'footer_top',
         'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => -12,
