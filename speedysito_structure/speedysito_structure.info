@@ -18,6 +18,7 @@ features[field_base][] = body
 features[field_instance][] = node-main_page-body
 features[field_instance][] = node-webform-body
 features[menu_custom][] = main-menu
+features[menu_custom][] = menu-footer-menu
 features[node][] = main_page
 features[node][] = webform
 features[user_permission][] = create main_page content

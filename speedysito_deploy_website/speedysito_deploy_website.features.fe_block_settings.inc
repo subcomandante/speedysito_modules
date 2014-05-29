@@ -212,6 +212,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['menu-menu-footer-menu'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'menu-footer-menu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['system-main-menu'] = array(
     'cache' => -1,
     'custom' => 0,

@@ -15,6 +15,7 @@ function speedysito_export_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'features_admin_menu_links_menus';
   $strongarm->value = array(
+    'menu-footer-menu' => 'menu-footer-menu',
     'main-menu' => 'main-menu',
     'management' => 0,
     'navigation' => 0,
