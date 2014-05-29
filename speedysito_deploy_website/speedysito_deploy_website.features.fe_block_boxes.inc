@@ -85,9 +85,9 @@ Chiamata Gratuita</p>
   $fe_block_boxes->format = 'editor';
   $fe_block_boxes->machine_name = 'speedysito_vantaggi';
   $fe_block_boxes->body = '<ul>
-	<li>Economico</li>
-	<li>Personalizzabile</li>
-	<li>Ottimizzato per motori di ricerca</li>
+	<li><span style="color:#FFFFFF">Economico</span></li>
+	<li><span style="color:#FFFFFF">Personalizzabile</span></li>
+	<li><span style="color:#FFFFFF">Ottimizzato per motori di ricerca</span></li>
 </ul>
 ';
 
