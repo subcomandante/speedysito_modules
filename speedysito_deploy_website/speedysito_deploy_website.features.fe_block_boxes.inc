@@ -40,9 +40,9 @@ Chiamata Gratuita</p>
   $fe_block_boxes->info = 'SpeedySito - Cos\'è';
   $fe_block_boxes->format = 'editor';
   $fe_block_boxes->machine_name = 'speedysito_intro';
-  $fe_block_boxes->body = '<p>SpeedySito è un sito internet completo e già pronto per le esigenze più diffuse, basta solo sostituire i testi e le immagini precaricate con le vostre. E se vorrete espanderlo o modificarlo in un secondo momento, potrete farlo ogni volta che vorrete, e senza nessun costo aggiuntivo.</p>
+  $fe_block_boxes->body = '<p><span style="color:#FFFFFF">SpeedySito è un sito internet completo e già pronto per le esigenze più diffuse, basta solo sostituire i testi e le immagini precaricate con le vostre. E se vorrete espanderlo o modificarlo in un secondo momento, potrete farlo ogni volta che vorrete, e senza nessun costo aggiuntivo.</span></p>
 
-<p><strong>Inoltre, grazie alla licenza di SpeedySito, il risultato rimarrà di vostra proprietà!</strong></p>
+<p><span style="color:#FFFFFF"><strong>Inoltre, grazie alla licenza di SpeedySito, il risultato rimarrà di vostra proprietà!</strong></span></p>
 ';
 
   $export['speedysito_intro'] = $fe_block_boxes;
