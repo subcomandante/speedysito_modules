@@ -174,6 +174,27 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'menu-footer-menu_informazioni:node/8',
   );
+  // Exported menu link: menu-footer-menu_esempi:node/3
+  $menu_links['menu-footer-menu_esempi:node/3'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/3',
+    'router_path' => 'node/%',
+    'link_title' => 'Esempi',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_esempi:node/3',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'menu-footer-menu_portfolio:node/3',
+  );
   // Exported menu link: menu-footer-menu_il-prodotto:node/2
   $menu_links['menu-footer-menu_il-prodotto:node/2'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -229,7 +250,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 0,
+    'has_children' => 1,
     'expanded' => 1,
     'weight' => -49,
     'customized' => 1,
@@ -364,6 +385,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
   t('Contattaci');
   t('Diventa rivenditore');
   t('Enterprise');
+  t('Esempi');
   t('Home');
   t('Il Prodotto');
   t('Il prodotto');

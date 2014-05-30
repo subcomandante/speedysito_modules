@@ -48,6 +48,7 @@ features[menu_links][] = main-menu_rivenditori:node/4
 features[menu_links][] = main-menu_siti-di-esempio:node/3
 features[menu_links][] = menu-footer-menu_contattaci:node/9
 features[menu_links][] = menu-footer-menu_diventa-rivenditore:node/4
+features[menu_links][] = menu-footer-menu_esempi:node/3
 features[menu_links][] = menu-footer-menu_il-prodotto:node/2
 features[menu_links][] = menu-footer-menu_informazioni:node/8
 features[menu_links][] = menu-footer-menu_portfolio:node/3
