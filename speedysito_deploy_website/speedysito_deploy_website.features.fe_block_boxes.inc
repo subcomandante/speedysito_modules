@@ -63,9 +63,11 @@ Chiamata Gratuita</p>
   $fe_block_boxes->info = 'SpeedySito - Services Basic';
   $fe_block_boxes->format = 'editor';
   $fe_block_boxes->machine_name = 'speedysito_services_basic';
-  $fe_block_boxes->body = '<p>Per il libero professionista e la piccola impresa che vogliono iniziare a muovere i primi passi nella rete.</p>
+  $fe_block_boxes->body = '<div class="speedysito-services-content">
+<p class="rtejustify">Per il libero professionista e la piccola impresa che vogliono iniziare a muovere i primi passi nella rete.</p>
+</div>
 
-<div class="altasis-link-moreinfo rteright"><a class="testround basic-moreinfo" href="/prodotto/speedysito-basic">Ulteriori informazioni</a></div>
+<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-basic-moreinfo" href="/prodotto/speedysito-basic">Ulteriori informazioni</a></div>
 ';
 
   $export['speedysito_services_basic'] = $fe_block_boxes;
@@ -74,9 +76,11 @@ Chiamata Gratuita</p>
   $fe_block_boxes->info = 'SpeedySito - Services Enterprise';
   $fe_block_boxes->format = 'editor';
   $fe_block_boxes->machine_name = 'speedysito_services_enterprise';
-  $fe_block_boxes->body = '<p>Il pacchetto ENTERPRISE è la soluzione ideale per la media e la grande impresa.</p>
+  $fe_block_boxes->body = '<div class="speedysito-services-content">
+<p class="rtejustify">Il pacchetto ENTERPRISE è la soluzione ideale per la media e la grande impresa.</p>
+</div>
 
-<div class="altasis-link-moreinfo rteright"><a class="testround enterprise-moreinfo" href="/prodotto/speedysito-enterprise">Ulteriori informazioni</a></div>
+<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-enterprise-moreinfo" href="/prodotto/speedysito-enterprise">Ulteriori informazioni</a></div>
 ';
 
   $export['speedysito_services_enterprise'] = $fe_block_boxes;
@@ -85,9 +89,11 @@ Chiamata Gratuita</p>
   $fe_block_boxes->info = 'SpeedySito - Services Professional';
   $fe_block_boxes->format = 'editor';
   $fe_block_boxes->machine_name = 'speedysito_services_professional';
-  $fe_block_boxes->body = '<p>Il pacchetto PROFESSIONAL è quello che offre il miglio rapporto qualità/prezzo per una presenza web significativa.</p>
+  $fe_block_boxes->body = '<div class="speedysito-services-content">
+<p class="rtejustify">Il pacchetto PROFESSIONAL è quello che offre il miglio rapporto qualità/prezzo per una presenza web significativa.</p>
+</div>
 
-<div class="altasis-link-moreinfo rteright"><a class="testround professional-moreinfo" href="/prodotto/speedysito-professional">Ulteriori informazioni</a></div>
+<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-professional-moreinfo" href="/prodotto/speedysito-professional">Ulteriori informazioni</a></div>
 ';
 
   $export['speedysito_services_professional'] = $fe_block_boxes;
