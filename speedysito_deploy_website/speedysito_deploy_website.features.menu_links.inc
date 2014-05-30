@@ -210,7 +210,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'hidden' => 0,
     'external' => 0,
     'has_children' => 1,
-    'expanded' => 0,
+    'expanded' => 1,
     'weight' => -48,
     'customized' => 1,
   );
@@ -230,7 +230,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
-    'expanded' => 0,
+    'expanded' => 1,
     'weight' => -49,
     'customized' => 1,
   );

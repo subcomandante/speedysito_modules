@@ -28,10 +28,10 @@ function speedysito_deploy_website_default_fe_block_boxes() {
   $fe_block_boxes->format = 'editor';
   $fe_block_boxes->machine_name = 'speedysito_footer_message';
   $fe_block_boxes->body = '<div class="footer-message-text-inner inner clearfix" id="footer-message-text-inner">
-<p><span style="font-size:14px">SpeedySito è un prodotto di <a href="http://www.gruppoies.net">I.E.S.</a> SrL<br />
+<span style="font-size:14px">SpeedySito è un prodotto di <a href="http://www.gruppoies.net">I.E.S.</a> SrL<br />
 Corso Massimo D\'Azeglio, 38/A<br />
 10015 Ivrea (TO)<br />
-CF e PI IT05464360014</span></p>
+CF e PI IT05464360014</span>
 </div>
 ';
 
