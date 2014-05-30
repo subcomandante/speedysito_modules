@@ -6,6 +6,7 @@ version = 7.x-1.0-alpha1
 project = speedysito_appearance
 dependencies[] = blockify
 dependencies[] = ctools
+dependencies[] = extlink
 dependencies[] = skinr
 dependencies[] = speedysito_core
 dependencies[] = strongarm
