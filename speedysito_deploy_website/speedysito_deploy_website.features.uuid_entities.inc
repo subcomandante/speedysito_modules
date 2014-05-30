@@ -286,7 +286,7 @@ function speedysito_deploy_website_uuid_default_entities() {
     'uid' => 1,
     'url_alias' => array(
       0 => array(
-        'alias' => 'entra-nel-nostro-team-e-lavora-con-noi',
+        'alias' => 'rivenditori',
         'language' => 'it',
       ),
     ),
@@ -716,6 +716,55 @@ Funzionalità incluse</h3>
       ),
     ),
     'uuid' => 'cc6e7d9e-3697-4f2b-aa1e-84f0fbd6ff1f',
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/d8a8e249-5cfe-44a2-8e22-9bf6c92e8a7f',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<p>I.E.S. è un\'azienda completa dedicata al vostro servizio: ovvero un partner affidabile per ogni vostra esigenza informatica.</p>
+
+<p>Un\'azienda è molto di più di un insieme di prodotti, persone e procedure: è un vero e proprio organismo che ha il suo ciclo di vita.</p>
+
+<p>Come in una pianta, questo sviluppo può essere aiutato, stimolato e indirizzato, grazie ad una conoscenza delle tecniche, dei processi e delle dinamiche aziendali.</p>
+
+<p>I.E.S., un "giardiniere" esperto, in questi anni di supporto alle PMI ha sviluppato le competenze giuste per aiutare a trasformare un germoglio in una pianta matura.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>I.E.S. Srl</strong><br />
+Corso Massimo D\'Azeglio 38/A, 10015 Ivrea (TO)<br />
+Tel 0125 627661<br />
+Fax 0125 1962181</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'Chi siamo',
+    'promote' => 1,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => ' SpeedySito è un prodotto della I.E.S. Srl, scopri chi siamo',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'main_page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'about',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => 'd8a8e249-5cfe-44a2-8e22-9bf6c92e8a7f',
   );
 
   return $entities;

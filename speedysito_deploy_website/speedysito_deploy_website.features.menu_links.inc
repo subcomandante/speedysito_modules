@@ -132,12 +132,75 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
+  // Exported menu link: menu-footer-menu_il-prodotto:node/2
+  $menu_links['menu-footer-menu_il-prodotto:node/2'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/2',
+    'router_path' => 'node/%',
+    'link_title' => 'Il Prodotto',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_il-prodotto:node/2',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-secondary-menu_chi-siamo:node/8
+  $menu_links['menu-secondary-menu_chi-siamo:node/8'] = array(
+    'menu_name' => 'menu-secondary-menu',
+    'link_path' => 'node/8',
+    'router_path' => 'node/%',
+    'link_title' => 'Chi siamo',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-secondary-menu_chi-siamo:node/8',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-secondary-menu_lavora-con-noi:node/4
+  $menu_links['menu-secondary-menu_lavora-con-noi:node/4'] = array(
+    'menu_name' => 'menu-secondary-menu',
+    'link_path' => 'node/4',
+    'router_path' => 'node/%',
+    'link_title' => 'Lavora con noi',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-secondary-menu_lavora-con-noi:node/4',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Translatables
   // Included for use with string extractors like potx.
   t('Basic');
+  t('Chi siamo');
   t('Enterprise');
   t('Home');
+  t('Il Prodotto');
   t('Il prodotto');
+  t('Lavora con noi');
   t('Professional');
   t('Rivenditori');
   t('Siti di esempio');
