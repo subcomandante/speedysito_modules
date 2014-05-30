@@ -132,6 +132,48 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
+  // Exported menu link: menu-footer-menu_contattaci:node/9
+  $menu_links['menu-footer-menu_contattaci:node/9'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/9',
+    'router_path' => 'node/%',
+    'link_title' => 'Contattaci',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_contattaci:node/9',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'menu-footer-menu_informazioni:node/8',
+  );
+  // Exported menu link: menu-footer-menu_diventa-rivenditore:node/4
+  $menu_links['menu-footer-menu_diventa-rivenditore:node/4'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/4',
+    'router_path' => 'node/%',
+    'link_title' => 'Diventa rivenditore',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_diventa-rivenditore:node/4',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'menu-footer-menu_informazioni:node/8',
+  );
   // Exported menu link: menu-footer-menu_il-prodotto:node/2
   $menu_links['menu-footer-menu_il-prodotto:node/2'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -147,10 +189,113 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 0,
+    'has_children' => 1,
     'expanded' => 1,
-    'weight' => 0,
+    'weight' => -50,
     'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_informazioni:node/8
+  $menu_links['menu-footer-menu_informazioni:node/8'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/8',
+    'router_path' => 'node/%',
+    'link_title' => 'Informazioni',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_informazioni:node/8',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_portfolio:node/3
+  $menu_links['menu-footer-menu_portfolio:node/3'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/3',
+    'router_path' => 'node/%',
+    'link_title' => 'Portfolio',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_portfolio:node/3',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-footer-menu_speedysito-basic:node/5
+  $menu_links['menu-footer-menu_speedysito-basic:node/5'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/5',
+    'router_path' => 'node/%',
+    'link_title' => 'SpeedySito Basic',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_speedysito-basic:node/5',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'menu-footer-menu_il-prodotto:node/2',
+  );
+  // Exported menu link: menu-footer-menu_speedysito-enterprise:node/7
+  $menu_links['menu-footer-menu_speedysito-enterprise:node/7'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/7',
+    'router_path' => 'node/%',
+    'link_title' => 'SpeedySito Enterprise',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_speedysito-enterprise:node/7',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'menu-footer-menu_il-prodotto:node/2',
+  );
+  // Exported menu link: menu-footer-menu_speedysito-professional:node/6
+  $menu_links['menu-footer-menu_speedysito-professional:node/6'] = array(
+    'menu_name' => 'menu-footer-menu',
+    'link_path' => 'node/6',
+    'router_path' => 'node/%',
+    'link_title' => 'SpeedySito Professional',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-footer-menu_speedysito-professional:node/6',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'menu-footer-menu_il-prodotto:node/2',
   );
   // Exported menu link: menu-secondary-menu_chi-siamo:node/8
   $menu_links['menu-secondary-menu_chi-siamo:node/8'] = array(
@@ -169,7 +314,27 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -50,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-secondary-menu_contattaci:node/9
+  $menu_links['menu-secondary-menu_contattaci:node/9'] = array(
+    'menu_name' => 'menu-secondary-menu',
+    'link_path' => 'node/9',
+    'router_path' => 'node/%',
+    'link_title' => 'Contattaci',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-secondary-menu_contattaci:node/9',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-secondary-menu_lavora-con-noi:node/4
@@ -189,21 +354,28 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -49,
     'customized' => 1,
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('Basic');
   t('Chi siamo');
+  t('Contattaci');
+  t('Diventa rivenditore');
   t('Enterprise');
   t('Home');
   t('Il Prodotto');
   t('Il prodotto');
+  t('Informazioni');
   t('Lavora con noi');
+  t('Portfolio');
   t('Professional');
   t('Rivenditori');
   t('Siti di esempio');
+  t('SpeedySito Basic');
+  t('SpeedySito Enterprise');
+  t('SpeedySito Professional');
 
 
   return $menu_links;
