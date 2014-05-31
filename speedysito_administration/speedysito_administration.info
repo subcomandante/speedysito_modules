@@ -5,7 +5,6 @@ package = SpeedySito
 version = 7.x-1.0-alpha2
 project = speedysito_administration
 dependencies[] = bean_admin_ui
-dependencies[] = bean_all
 dependencies[] = config_builder
 dependencies[] = contextual
 dependencies[] = field_ui
