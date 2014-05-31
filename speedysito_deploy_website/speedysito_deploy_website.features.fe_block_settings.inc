@@ -12,51 +12,12 @@ function speedysito_deploy_website_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['block-ies_srl'] = array(
+  $export['blockify-blockify-messages'] = array(
     'cache' => -1,
     'custom' => 0,
-    'machine_name' => 'ies_srl',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => 'about*',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'I.E.S. srl',
-    'visibility' => 0,
-  );
-
-  $export['block-speedysito_footer_message'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_footer_message',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => -14,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['block-speedysito_info'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_info',
-    'module' => 'block',
+    'delta' => 'blockify-messages',
+    'disabled' => FALSE,
+    'module' => 'blockify',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
@@ -64,126 +25,6 @@ function speedysito_deploy_website_default_fe_block_settings() {
       'speedysito_website' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'speedysito_website',
-        'weight' => -11,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['block-speedysito_intro'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_intro',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'preface',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => -10,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 1,
-  );
-
-  $export['block-speedysito_services_basic'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_services_basic',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'main_bottom',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => -12,
-      ),
-    ),
-    'title' => 'SpeedySito Basic',
-    'visibility' => 1,
-  );
-
-  $export['block-speedysito_services_enterprise'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_services_enterprise',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'main_bottom',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => -11,
-      ),
-    ),
-    'title' => 'SpeedySito Enterprise',
-    'visibility' => 1,
-  );
-
-  $export['block-speedysito_services_professional'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_services_professional',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'main_bottom',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => -12,
-      ),
-    ),
-    'title' => 'SpeedySito Professional',
-    'visibility' => 1,
-  );
-
-  $export['block-speedysito_vantaggi'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'speedysito_vantaggi',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '<front>',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'preface',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => -9,
-      ),
-    ),
-    'title' => 'Il tuo nuovo sito web',
-    'visibility' => 1,
-  );
-
-  $export['blockify-blockify-messages'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'blockify-messages',
-    'module' => 'blockify',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'header_top',
-        'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => 0,
       ),
@@ -196,16 +37,17 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'cache' => 4,
     'custom' => 0,
     'delta' => 'blockify-page-title',
+    'disabled' => FALSE,
     'module' => 'blockify',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'preface',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'speedysito_website',
-        'weight' => -8,
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -216,6 +58,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'cache' => -1,
     'custom' => 0,
     'delta' => 'blockify-tabs',
+    'disabled' => FALSE,
     'module' => 'blockify',
     'node_types' => array(),
     'pages' => '',
@@ -236,16 +79,17 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'cache' => -1,
     'custom' => 0,
     'delta' => 'menu-footer-menu',
+    'disabled' => FALSE,
     'module' => 'menu',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'footer',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'speedysito_website',
-        'weight' => -13,
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -256,19 +100,20 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'cache' => -1,
     'custom' => 0,
     'delta' => 'menu-secondary-menu',
+    'disabled' => FALSE,
     'module' => 'menu',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'footer_top',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'speedysito_website',
         'weight' => 0,
       ),
     ),
-    'title' => 'Informazioni',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -276,16 +121,17 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'cache' => -1,
     'custom' => 0,
     'delta' => 'main-menu',
+    'disabled' => FALSE,
     'module' => 'system',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'header',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'speedysito_website',
-        'weight' => -10,
+        'weight' => 0,
       ),
     ),
     'title' => '',

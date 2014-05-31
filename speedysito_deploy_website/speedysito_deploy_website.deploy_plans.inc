@@ -15,7 +15,7 @@ function speedysito_deploy_website_deploy_plans_default() {
   $plan->api_version = 1;
   $plan->name = 'speedysito_content_export';
   $plan->title = 'SpeedySito Content Export';
-  $plan->description = 'SpeedySito Content Export.';
+  $plan->description = '';
   $plan->debug = 0;
   $plan->aggregator_plugin = 'DeployAggregatorManaged';
   $plan->aggregator_config = array(
