@@ -22,8 +22,8 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'header_top',
+        'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => 0,
       ),
