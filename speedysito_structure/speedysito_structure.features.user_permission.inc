@@ -10,48 +10,38 @@
 function speedysito_structure_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: 'create main_page content'.
-  $permissions['create main_page content'] = array(
-    'name' => 'create main_page content',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+  // Exported permission: 'create page content'.
+  $permissions['create page content'] = array(
+    'name' => 'create page content',
+    'roles' => array(),
     'module' => 'node',
   );
 
-  // Exported permission: 'delete any main_page content'.
-  $permissions['delete any main_page content'] = array(
-    'name' => 'delete any main_page content',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+  // Exported permission: 'delete any page content'.
+  $permissions['delete any page content'] = array(
+    'name' => 'delete any page content',
+    'roles' => array(),
     'module' => 'node',
   );
 
-  // Exported permission: 'delete own main_page content'.
-  $permissions['delete own main_page content'] = array(
-    'name' => 'delete own main_page content',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+  // Exported permission: 'delete own page content'.
+  $permissions['delete own page content'] = array(
+    'name' => 'delete own page content',
+    'roles' => array(),
     'module' => 'node',
   );
 
-  // Exported permission: 'edit any main_page content'.
-  $permissions['edit any main_page content'] = array(
-    'name' => 'edit any main_page content',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+  // Exported permission: 'edit any page content'.
+  $permissions['edit any page content'] = array(
+    'name' => 'edit any page content',
+    'roles' => array(),
     'module' => 'node',
   );
 
-  // Exported permission: 'edit own main_page content'.
-  $permissions['edit own main_page content'] = array(
-    'name' => 'edit own main_page content',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+  // Exported permission: 'edit own page content'.
+  $permissions['edit own page content'] = array(
+    'name' => 'edit own page content',
+    'roles' => array(),
     'module' => 'node',
   );
 
