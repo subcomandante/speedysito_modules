@@ -22,11 +22,11 @@ function speedysito_structure_ctools_plugin_api($module = NULL, $api = NULL) {
 function speedysito_structure_node_info() {
   $items = array(
     'page' => array(
-      'name' => t('Page'),
+      'name' => t('Pagina'),
       'base' => 'node_content',
       'description' => t('Standard web page'),
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Titolo'),
       'help' => '',
     ),
     'webform' => array(

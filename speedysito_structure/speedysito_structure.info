@@ -4,6 +4,7 @@ core = 7.x
 package = SpeedySito
 version = 7.x-1.0-alpha4
 project = speedysito_structure
+dependencies[] = bean
 dependencies[] = ctools
 dependencies[] = file
 dependencies[] = file_entity
