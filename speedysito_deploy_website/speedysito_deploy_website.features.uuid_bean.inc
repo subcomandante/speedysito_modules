@@ -11,6 +11,42 @@ function speedysito_deploy_website_uuid_features_default_beans() {
   $beans = array();
 
   $beans[] = array(
+    'label' => 'SpeedySito - IES',
+    'description' => NULL,
+    'title' => 'I.E.S. srl',
+    'type' => 'block',
+    'data' => array(
+      'view_mode' => 'default',
+    ),
+    'delta' => 'speedysito---ies',
+    'view_mode' => 'default',
+    'created' => 1401547114,
+    'log' => '',
+    'uid' => 1,
+    'default_revision' => 1,
+    'revisions' => array(),
+    'vuuid' => '2dc37f5a-5424-41fb-9415-7ae0263ca0b0',
+    'uuid' => '257bfb29-3d20-4a43-86fe-2e0177725f01',
+    'field_body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<p><span style="font-size:14px">SpeedySito è un prodotto della I.E.S. srl.</span></p>
+
+<p><span style="font-size:14px">Siamo a vostra disposizione per ogni esigenza informatica.</span></p>
+
+<div style="text-align: right;"><span style="font-size:14px"><a href="/about">Scopri chi siamo</a></span></div>',
+          'format' => 'editor',
+          'safe_value' => '<p><span style="font-size:14px">SpeedySito è un prodotto della I.E.S. srl.</span></p>
+
+<p><span style="font-size:14px">Siamo a vostra disposizione per ogni esigenza informatica.</span></p>
+
+<div style="text-align: right;"><span style="font-size:14px"><a href="/about">Scopri chi siamo</a></span></div>',
+        ),
+      ),
+    ),
+    'url_alias' => array(),
+  );
+  $beans[] = array(
     'label' => 'SpeedySito - Services Basic',
     'description' => NULL,
     'title' => 'SpeedySito Basic',
@@ -152,36 +188,6 @@ function speedysito_deploy_website_uuid_features_default_beans() {
 	<li><span style="color:#FFFFFF">Personalizzabile</span></li>
 	<li><span style="color:#FFFFFF">Ottimizzato per motori di ricerca</span></li>
 </ul>
-',
-        ),
-      ),
-    ),
-    'url_alias' => array(),
-  );
-  $beans[] = array(
-    'label' => 'Test bean block',
-    'description' => NULL,
-    'title' => 'Test bean title',
-    'type' => 'block',
-    'data' => array(
-      'view_mode' => 'default',
-    ),
-    'delta' => 'test-bean-block',
-    'view_mode' => 'default',
-    'created' => 1401542068,
-    'log' => '',
-    'uid' => 0,
-    'default_revision' => 1,
-    'revisions' => array(),
-    'vuuid' => '6aa8050a-58e7-4e92-8ce0-97b5cd718d80',
-    'uuid' => 'd5eae970-afcf-40e5-9866-2118c4d5b784',
-    'field_body' => array(
-      'und' => array(
-        0 => array(
-          'value' => '<p>Hello mate!</p>
-',
-          'format' => 'editor',
-          'safe_value' => '<p>Hello mate!</p>
 ',
         ),
       ),
