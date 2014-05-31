@@ -44,10 +44,28 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
+  // Exported menu link: main-menu_siti-di-esempio:node/3
+  $menu_links['main-menu_siti-di-esempio:node/3'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/3',
+    'router_path' => 'node/%',
+    'link_title' => 'Siti di esempio',
+    'options' => array(
+      'identifier' => 'main-menu_siti-di-esempio:node/3',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+  );
   // Translatables
   // Included for use with string extractors like potx.
   t('Home');
   t('Il prodotto');
+  t('Siti di esempio');
 
 
   return $menu_links;

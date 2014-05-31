@@ -195,6 +195,48 @@ function speedysito_deploy_website_uuid_default_entities() {
     ),
     'uuid' => '39443f09-2aaf-4113-9695-12c7900d4b6d',
   );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/48e6e018-fff2-4cf8-9f02-6202424c7cc3',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<p>Ne abbiamo scelto solo uno per ciascuna categoria (ed è stata dura!), ma alla fine ecco una selezione dei nostri modelli preferiti:</p>
+
+<p><img alt="" class="attr__field_file_image_alt_text[und][0][value]__ attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__1 img__view_mode__default media-image" src="http://build.speedysito.it/sites/default/files/Architettura.jpg" /></p>
+
+<p>Puoi scegliere tra molti modelli tematici e personalizzarli nei testi e nella grafica.</p>
+
+<p>Vuoi saperne di più? Contattaci!</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'Portfolio',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'SpeedySito, il sito giusto per la tua attività!',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'portfolio',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => '48e6e018-fff2-4cf8-9f02-6202424c7cc3',
+  );
 
   return $entities;
 }
