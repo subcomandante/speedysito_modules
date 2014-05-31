@@ -513,6 +513,424 @@ Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione
       ),
     ),
   );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/f71bfa1e-4565-414b-a9e7-0729a65c3913',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<p>I.E.S. è un\'azienda completa dedicata al vostro servizio: ovvero un partner affidabile per ogni vostra esigenza informatica.</p>
+
+<p>Un\'azienda è molto di più di un insieme di prodotti, persone e procedure: è un vero e proprio organismo che ha il suo ciclo di vita.</p>
+
+<p>Come in una pianta, questo sviluppo può essere aiutato, stimolato e indirizzato, grazie ad una conoscenza delle tecniche, dei processi e delle dinamiche aziendali.</p>
+
+<p>I.E.S., un "giardiniere" esperto, in questi anni di supporto alle PMI ha sviluppato le competenze giuste per aiutare a trasformare un germoglio in una pianta matura.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>I.E.S. Srl</strong><br />
+Corso Massimo D\'Azeglio 38/A, 10015 Ivrea (TO)<br />
+Tel 0125 627661<br />
+Fax 0125 1962181</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'Chi siamo',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => ' SpeedySito è un prodotto della I.E.S. Srl, scopri chi siamo',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'about',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => 'f71bfa1e-4565-414b-a9e7-0729a65c3913',
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/4017fa53-8b31-49d9-876a-de9d84b1df9c',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<p>Se hai delle domande o vuoi richiedere informazioni, fare proposte e segnalazioni o semplicemente esprimere le tue opinioni, puoi farlo compilando i seguenti campi:</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'Contattaci',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'Non esitare a contattarci',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'webform',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'contattaci',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => '4017fa53-8b31-49d9-876a-de9d84b1df9c',
+    'webform' => array(
+      'nid' => 6,
+      'confirmation' => '',
+      'confirmation_format' => NULL,
+      'redirect_url' => '<confirmation>',
+      'status' => 1,
+      'block' => 0,
+      'teaser' => 0,
+      'allow_draft' => 0,
+      'auto_save' => 0,
+      'submit_notice' => 1,
+      'submit_text' => '',
+      'submit_limit' => -1,
+      'submit_interval' => -1,
+      'total_submit_limit' => -1,
+      'total_submit_interval' => -1,
+      'record_exists' => TRUE,
+      'roles' => array(
+        0 => 1,
+        1 => 2,
+      ),
+      'emails' => array(),
+      'components' => array(
+        1 => array(
+          'nid' => 6,
+          'cid' => 1,
+          'pid' => 0,
+          'form_key' => 'la_tua_email',
+          'name' => 'La tua Email',
+          'type' => 'email',
+          'value' => '%useremail',
+          'extra' => array(
+            'title_display' => 'before',
+            'private' => 0,
+            'disabled' => 0,
+            'unique' => 0,
+            'conditional_operator' => '=',
+            'width' => '',
+            'description' => '',
+            'attributes' => array(),
+            'conditional_component' => '',
+            'conditional_values' => '',
+          ),
+          'mandatory' => 1,
+          'weight' => 0,
+          'page_num' => 1,
+        ),
+        2 => array(
+          'nid' => 6,
+          'cid' => 2,
+          'pid' => 0,
+          'form_key' => 'oggetto',
+          'name' => 'Oggetto',
+          'type' => 'select',
+          'value' => 'general_info',
+          'extra' => array(
+            'items' => 'general_info|Informazioni generali',
+            'multiple' => 0,
+            'title_display' => 'before',
+            'private' => 0,
+            'aslist' => 1,
+            'optrand' => 0,
+            'conditional_operator' => '=',
+            'other_option' => NULL,
+            'other_text' => 'Other...',
+            'description' => '',
+            'custom_keys' => FALSE,
+            'options_source' => '',
+            'conditional_component' => '',
+            'conditional_values' => '',
+          ),
+          'mandatory' => 1,
+          'weight' => 1,
+          'page_num' => 1,
+        ),
+        3 => array(
+          'nid' => 6,
+          'cid' => 3,
+          'pid' => 0,
+          'form_key' => 'testo_privacy',
+          'name' => 'Testo privacy',
+          'type' => 'markup',
+          'value' => '<p>Ai sensi dell’art. 13, D.Lgs. n. 193/2003, Vi informiamo che i dati personali che verranno raccolti da I.E.S. Srl, così come quelli eventualmente già acquisiti in quanto pubblici o resi liberamente disponibili al pubblico, verranno trattati allo scopo precipuo di verificare la possibilità di un rapporto commerciale e di predisporre, ove di Vostro interesse, un’offerta economica. Naturalmente, essi verranno utilizzati anche qualora, accettata la nostra offerta, si instaurasse un rapporto contrattuale.</p>
+
+<p>I dati raccolti saranno gestiti sia in forma cartacea che informatica / telematica.<br />
+Indipendentemente dall’esito dell’attuale contatto, informiamo che i dati verranno conservati per mesi 12 (dodici), anche al fine di verificare future possibilità di reciproco interesse.<br />
+All’interno della Società, i soggetti che, incaricati del trattamento, possono venire a conoscenza dei dati che Vi riguardano, in quanto preposti all’esecuzione delle operazioni per le finalità suddette, sono principalmente gli addetti dell’area commerciale della Società.<br />
+Il diritto di accedere ai propri dati personali, di chiederne la rettifica, l’aggiornamento e la cancellazione, se incompleti o erronei, nonché di opporsi al loro trattamento, ai sensi degli artt. 7-10 del Codice Privacy, potrà essere esercitato rivolgendosi al Responsabile Aziendale del Trattamento, reperibile presso la sede I.E.S. Srl.<br />
+Il rifiuto del trattamento dei Vostri dati purtroppo preclude la predisposizione dell’offerta.</p>
+',
+          'extra' => array(
+            'conditional_operator' => '=',
+            'format' => 'editor',
+            'private' => 0,
+            'conditional_component' => '',
+            'conditional_values' => '',
+          ),
+          'mandatory' => 0,
+          'weight' => 2,
+          'page_num' => 1,
+        ),
+        4 => array(
+          'nid' => 6,
+          'cid' => 4,
+          'pid' => 0,
+          'form_key' => 'informativa_privacy',
+          'name' => 'Informativa privacy',
+          'type' => 'select',
+          'value' => '',
+          'extra' => array(
+            'items' => '1|Acconsento',
+            'multiple' => 0,
+            'title_display' => 'before',
+            'private' => 0,
+            'aslist' => 0,
+            'optrand' => 0,
+            'conditional_operator' => '=',
+            'other_option' => NULL,
+            'other_text' => 'Other...',
+            'description' => '',
+            'custom_keys' => FALSE,
+            'options_source' => '',
+            'conditional_component' => '',
+            'conditional_values' => '',
+          ),
+          'mandatory' => 1,
+          'weight' => 3,
+          'page_num' => 1,
+        ),
+      ),
+    ),
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/9c4db570-4dc0-4923-b0f3-3019d7714071',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>SpeedySito Basic</h2>
+
+<p>Il pacchetto BASIC è tutto quello che serve al libero professionista e alla piccola impresa per iniziare a muovere i suoi primi passi nella rete.</p>
+
+<p>Ha già tutto quello che serve: un dominio a scelta (.it, .com, .net...) compreso nel prezzo, uno spazio web e mail da 1GB per contenere tutti i vostri dati, e una serie di moduli accessori tra i più richiesti.</p>
+
+<p>Inoltre è semplicissimo da creare e da aggiornare grazie alla struttura precaricata, che dovrete solo completare con le vostre informazioni.</p>
+
+<h3>Funzionalità incluse</h3>
+
+<ul>
+	<li>Registrazione del dominio</li>
+	<li>Mail illimitate</li>
+	<li>Spazio Web+Mail 1 GB</li>
+	<li>Gestione menù completamente personalizzata</li>
+	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
+	<li>Gestione degli allegati</li>
+	<li>Disposizione dei contenuti personalizzabile</li>
+	<li>Aspetto grafico personalizzabile</li>
+	<li>Backup, Restore e Migrazione del sito</li>
+</ul>
+
+<h3>Servizi opzionali</h3>
+
+<ul>
+	<li>Creazione Logo ed immagine coordinata</li>
+	<li>Ottimizzazione foto e video</li>
+	<li>Creazione testi</li>
+	<li>Piano di visibilità web</li>
+	<li>Creazione, gestione ed animazione di pagine dedicata sui Social Network (Facebook, You Tube etc.)</li>
+</ul>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'SpeedySito Basic',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'Muovi i primi passi nella rete con la versione BASIC',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'prodotto/speedysito-basic',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => '9c4db570-4dc0-4923-b0f3-3019d7714071',
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/a95376df-ff8f-4446-a560-3b30f384aa61',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>SpeedySito Professional</h2>
+
+<p>Il pacchetto PROFESSIONAL è quello che offre il miglior rapporto qualità / prezzo per una presenza web significativa.</p>
+
+<p>Ha tutti i servizi previsti dal pacchetto BASIC, più alcuni servizi avanzati, quali l\'utilizzo del protocollo ftp per trasferire i file, e la possibilità di personalizzare i moduli aggiuntivi. Questi ultimi vi permetteranno di personalizzare il sito implementando funzionalità specifiche (ad esempio, forum, blog, news, gallerie di immagini...).</p>
+
+<h3>Funzionalità incluse</h3>
+
+<ul>
+	<li>Registrazione del dominio</li>
+	<li>Mail illimitate</li>
+	<li>Spazio Web+Mail 3 GB</li>
+	<li>Servizio FTP</li>
+	<li>Personalizzazione su misura dei moduli</li>
+	<li>Gestione menù completamente personalizzata</li>
+	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
+	<li>Gestione degli allegati</li>
+	<li>Disposizione dei contenuti personalizzabile</li>
+	<li>Aspetto grafico personalizzabile</li>
+	<li>Backup, Restore e Migrazione del sito</li>
+</ul>
+
+<h3>Servizi Opzionali</h3>
+
+<ul>
+	<li>Creazione Logo ed immagine coordinata</li>
+	<li>Ottimizzazione foto e video</li>
+	<li>Creazione testi</li>
+	<li>Piano di visibilità web</li>
+	<li>Creazione, gestione ed animazione di pagine dedicata sui Social Network (Facebook, You Tube etc.)</li>
+</ul>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'SpeedySito Professional',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'SpeedySito Professional',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'prodotto/speedysito-professional',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => 'a95376df-ff8f-4446-a560-3b30f384aa61',
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/15dcfce5-1f2c-4677-a9cf-a657f3b65146',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<h2>SpeedySito Enterprise</h2>
+
+<p>Il pacchetto ENTERPRISE è la soluzione ideale, tutto compreso, per la media e la grande impresa.</p>
+
+<p>La possibilità di personalizzare ogni ambito del sito, il servizio ftp prioritario, la banda illimitata e l\'assistenza dedicata, con risposta immediata alle proprie richieste, ne fanno la scelta ottimale per i siti professionali, ad alto volume di traffico e di accesso.</p>
+
+<p>Mantenendo soprattutto la semplicità operativa che caratterizza tutte le nostre soluzioni.</p>
+
+<h3><br />
+Funzionalità incluse</h3>
+
+<ul>
+	<li>Registrazione del dominio</li>
+	<li>Mail illimitate</li>
+	<li>Spazio Web+Mail 6 GB</li>
+	<li>Servizio FTP</li>
+	<li>Personalizzazione su misura dei moduli</li>
+	<li>Gestione menù completamente personalizzata</li>
+	<li>Gestione dei contenuti avanzata con editor grafico (aggiungi/rimuovi/modifica le pagine del sito senza limiti)</li>
+	<li>Gestione degli allegati</li>
+	<li>Disposizione dei contenuti personalizzabile</li>
+	<li>Aspetto grafico personalizzabile</li>
+	<li>Backup, Restore e Migrazione del sito</li>
+	<li>Servizio SSH per accesso da terminale</li>
+</ul>
+
+<h3>Servizi Opzionali</h3>
+
+<ul>
+	<li>Creazione Logo ed immagine coordinata</li>
+	<li>Ottimizzazione foto e video</li>
+	<li>Creazione testi</li>
+	<li>Piano di visibilità web</li>
+	<li>Creazione, gestione ed animazione di pagine dedicata sui Social Network (Facebook, You Tube etc.)</li>
+</ul>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'language' => 'it',
+    'log' => '',
+    'page_title' => 'SpeedySito Enterprise',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'Nessun limite alle potenzialità del tuo sito',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'page',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'prodotto/speedysito-enterprise',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => '15dcfce5-1f2c-4677-a9cf-a657f3b65146',
+  );
 
   return $entities;
 }

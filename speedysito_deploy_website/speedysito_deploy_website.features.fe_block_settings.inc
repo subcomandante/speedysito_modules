@@ -222,8 +222,8 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer',
+        'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => 0,
       ),
@@ -242,13 +242,13 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer_top',
+        'status' => 1,
         'theme' => 'speedysito_website',
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'Informazioni',
     'visibility' => 0,
   );
 

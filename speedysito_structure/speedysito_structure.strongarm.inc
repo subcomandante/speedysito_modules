@@ -41,6 +41,7 @@ function speedysito_structure_strongarm() {
   $strongarm->name = 'menu_options_webform';
   $strongarm->value = array(
     0 => 'main-menu',
+    1 => 'menu-secondary-menu',
   );
   $export['menu_options_webform'] = $strongarm;
 
