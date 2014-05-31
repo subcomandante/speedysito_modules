@@ -85,6 +85,40 @@ function speedysito_deploy_website_uuid_features_default_beans() {
     'url_alias' => array(),
   );
   $beans[] = array(
+    'label' => 'SpeedySito - Footer Message',
+    'description' => NULL,
+    'title' => '',
+    'type' => 'block',
+    'data' => array(
+      'view_mode' => 'default',
+    ),
+    'delta' => 'speedysito---footer-message',
+    'view_mode' => 'default',
+    'created' => 1401548243,
+    'log' => '',
+    'uid' => 1,
+    'default_revision' => 1,
+    'revisions' => array(),
+    'vuuid' => '47c05cce-4832-486b-a6e9-9ddec9462ada',
+    'uuid' => '5236a4aa-3732-4d7f-ba58-92f81251be01',
+    'field_body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<div class="footer-message-text-inner inner clearfix" id="footer-message-text-inner"><span style="font-size:13px">SpeedySito è un prodotto di <a href="http://www.gruppoies.net" target="_blank">I.E.S.</a> SrL<br />
+Corso Massimo D\'Azeglio, 38/A<br />
+10015 Ivrea (TO)<br />
+CF e PI IT05464360014</span></div>',
+          'format' => 'editor',
+          'safe_value' => '<div class="footer-message-text-inner inner clearfix" id="footer-message-text-inner"><span style="font-size:13px">SpeedySito è un prodotto di <a href="http://www.gruppoies.net" target="_blank">I.E.S.</a> SrL<br />
+Corso Massimo D\'Azeglio, 38/A<br />
+10015 Ivrea (TO)<br />
+CF e PI IT05464360014</span></div>',
+        ),
+      ),
+    ),
+    'url_alias' => array(),
+  );
+  $beans[] = array(
     'label' => 'SpeedySito - Intro',
     'description' => NULL,
     'title' => '',

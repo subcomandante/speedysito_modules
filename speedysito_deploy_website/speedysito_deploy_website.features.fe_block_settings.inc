@@ -12,6 +12,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['bean-speedysito---footer-message'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'speedysito---footer-message',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['bean-speedysito---ies'] = array(
     'cache' => 1,
     'custom' => 0,
