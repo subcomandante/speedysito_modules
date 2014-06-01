@@ -17,7 +17,16 @@ function speedysito_editor_filter_default_formats() {
     'cache' => 1,
     'status' => 1,
     'weight' => 0,
-    'filters' => array(),
+    'filters' => array(
+      'pathologic' => array(
+        'weight' => 50,
+        'status' => 1,
+        'settings' => array(
+          'local_paths' => '',
+          'protocol_style' => 'full',
+        ),
+      ),
+    ),
   );
 
   return $formats;
