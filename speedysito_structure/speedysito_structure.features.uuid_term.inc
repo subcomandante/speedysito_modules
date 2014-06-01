@@ -14,7 +14,7 @@ function speedysito_structure_uuid_features_default_terms() {
     'name' => 'Sedi',
     'description' => '',
     'format' => 'editor',
-    'weight' => 1,
+    'weight' => 2,
     'uuid' => '10473a99-df16-4c23-ac2f-88c48fc7c055',
     'vocabulary_machine_name' => 'sitemap',
     'url_alias' => array(
@@ -28,7 +28,7 @@ function speedysito_structure_uuid_features_default_terms() {
     'name' => 'Contatti',
     'description' => '',
     'format' => 'editor',
-    'weight' => 2,
+    'weight' => 3,
     'uuid' => '1a6fab0f-7622-4a64-b221-a9ff452f5f45',
     'vocabulary_machine_name' => 'sitemap',
     'url_alias' => array(
@@ -43,7 +43,7 @@ function speedysito_structure_uuid_features_default_terms() {
     'description' => '<p>Stai organizzando una festa, ti è nato un figlio, stai per partecipare ad una fiera.</p>
 ',
     'format' => 'editor',
-    'weight' => 0,
+    'weight' => 1,
     'uuid' => '549b0a12-b221-472f-9bbe-8e3763170227',
     'vocabulary_machine_name' => 'sitemap',
     'url_alias' => array(
@@ -64,6 +64,20 @@ function speedysito_structure_uuid_features_default_terms() {
     'url_alias' => array(
       0 => array(
         'alias' => 'sedi/legale',
+        'language' => 'und',
+      ),
+    ),
+  );
+  $terms[] = array(
+    'name' => 'Prodotti',
+    'description' => '',
+    'format' => 'editor',
+    'weight' => 0,
+    'uuid' => '73de5be2-a7b6-4248-bdc0-522806f7b36c',
+    'vocabulary_machine_name' => 'sitemap',
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'sitemap/prodotti',
         'language' => 'und',
       ),
     ),

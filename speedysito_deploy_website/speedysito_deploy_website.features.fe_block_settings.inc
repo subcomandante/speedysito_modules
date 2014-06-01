@@ -38,7 +38,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'delta' => 'speedysito---ies',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'website*',
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
@@ -232,6 +232,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['menu-menu-products'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'menu-products',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => 'website*',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
+  );
+
   $export['menu-menu-secondary-menu'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -270,6 +290,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views-slideshow-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'slideshow-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => -14,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   return $export;
