@@ -40,7 +40,7 @@ function speedysito_deploy_website_uuid_features_default_beans() {
 
 <p><span style="font-size:14px">Siamo a vostra disposizione per ogni esigenza informatica.</span></p>
 
-<div style="text-align: right;"><span style="font-size:14px"><a href="/about">Scopri chi siamo</a></span></div>',
+<div style="text-align: right;"><span style="font-size:14px"><a href="http://devel.speedysito.it/about">Scopri chi siamo</a></span></div>',
         ),
       ),
     ),
@@ -77,7 +77,7 @@ function speedysito_deploy_website_uuid_features_default_beans() {
 <p class="rtejustify">Per il libero professionista e la piccola impresa che vogliono iniziare a muovere i primi passi nella rete.</p>
 </div>
 
-<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-basic-moreinfo" href="/prodotto/speedysito-basic">Ulteriori informazioni</a></div>
+<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-basic-moreinfo" href="http://devel.speedysito.it/prodotto/speedysito-basic">Ulteriori informazioni</a></div>
 ',
         ),
       ),
@@ -183,7 +183,7 @@ CF e PI IT05464360014</span></div>',
 <p class="rtejustify">Il pacchetto PROFESSIONAL è quello che offre il miglio rapporto qualità/prezzo per una presenza web significativa.</p>
 </div>
 
-<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-professional-moreinfo" href="/prodotto/speedysito-professional">Ulteriori informazioni</a></div>
+<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-professional-moreinfo" href="http://devel.speedysito.it/prodotto/speedysito-professional">Ulteriori informazioni</a></div>
 ',
         ),
       ),
@@ -259,7 +259,7 @@ CF e PI IT05464360014</span></div>',
 <p class="rtejustify">Il pacchetto ENTERPRISE è la soluzione ideale per la media e la grande impresa.</p>
 </div>
 
-<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-enterprise-moreinfo" href="/prodotto/speedysito-enterprise">Ulteriori informazioni</a></div>
+<div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-enterprise-moreinfo" href="http://devel.speedysito.it/prodotto/speedysito-enterprise">Ulteriori informazioni</a></div>
 ',
         ),
       ),
