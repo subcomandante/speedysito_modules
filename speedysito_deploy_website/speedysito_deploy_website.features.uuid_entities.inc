@@ -956,6 +956,95 @@ Funzionalità incluse</h3>
     ),
     'uuid' => '15dcfce5-1f2c-4677-a9cf-a657f3b65146',
   );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'taxonomy_term',
+      'uri' => 'taxonomy_term/69d9522c-70fc-4ac5-baf1-12504146db1e',
+      'cause' => 'node/ab75173d-e943-4f06-94f3-8f13dc3d9e20',
+    ),
+    'description' => '<p>Sede principale</p>
+',
+    'format' => 'editor',
+    'name' => 'Legale',
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'sedi/legale',
+        'language' => 'und',
+      ),
+    ),
+    'uuid' => '69d9522c-70fc-4ac5-baf1-12504146db1e',
+    'vocabulary_machine_name' => 'sedi',
+    'weight' => 0,
+  );
+  $entities['speedysito_content_export'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/ab75173d-e943-4f06-94f3-8f13dc3d9e20',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'editor',
+          'summary' => '',
+          'value' => '<p>I.E.S. è un\'azienda completa dedicata al vostro servizio: ovvero un partner affidabile per ogni vostra esigenza informatica.</p>
+
+<p>Un\'azienda è molto di più di un insieme di prodotti, persone e procedure: è un vero e proprio organismo che ha il suo ciclo di vita.</p>
+
+<p>Come in una pianta, questo sviluppo può essere aiutato, stimolato e indirizzato, grazie ad una conoscenza delle tecniche, dei processi e delle dinamiche aziendali.</p>
+
+<p>I.E.S., un "giardiniere" esperto, in questi anni di supporto alle PMI ha sviluppato le competenze giuste per aiutare a trasformare un germoglio in una pianta matura.</p>
+',
+        ),
+      ),
+    ),
+    'comment' => 0,
+    'field_indirizzo' => array(
+      'und' => array(
+        0 => array(
+          'administrative_area' => 'TO',
+          'country' => 'IT',
+          'data' => NULL,
+          'dependent_locality' => NULL,
+          'first_name' => NULL,
+          'last_name' => NULL,
+          'locality' => 'Ivrea',
+          'name_line' => NULL,
+          'organisation_name' => NULL,
+          'postal_code' => 10015,
+          'premise' => '',
+          'sub_administrative_area' => NULL,
+          'sub_premise' => NULL,
+          'thoroughfare' => 'corso Massimo D\'Azeglio 38/A',
+        ),
+      ),
+    ),
+    'field_pictures' => array(),
+    'field_tipo_di_sede' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '69d9522c-70fc-4ac5-baf1-12504146db1e',
+        ),
+      ),
+    ),
+    'language' => 'it',
+    'log' => '',
+    'promote' => 0,
+    'status' => 1,
+    'sticky' => 0,
+    'title' => 'IES',
+    'tnid' => 0,
+    'translate' => 0,
+    'type' => 'sede',
+    'uid' => 1,
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'sede/ies',
+        'language' => 'it',
+      ),
+    ),
+    'uuid' => 'ab75173d-e943-4f06-94f3-8f13dc3d9e20',
+  );
 
   return $entities;
 }

@@ -318,14 +318,17 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'menu-footer-menu_il-prodotto:node/2',
   );
-  // Exported menu link: menu-secondary-menu_chi-siamo:node/5
-  $menu_links['menu-secondary-menu_chi-siamo:node/5'] = array(
+  // Exported menu link: menu-secondary-menu_chi-siamo:node/10
+  $menu_links['menu-secondary-menu_chi-siamo:node/10'] = array(
     'menu_name' => 'menu-secondary-menu',
-    'link_path' => 'node/5',
+    'link_path' => 'node/10',
     'router_path' => 'node/%',
     'link_title' => 'Chi siamo',
     'options' => array(
-      'identifier' => 'menu-secondary-menu_chi-siamo:node/5',
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-secondary-menu_chi-siamo:node/10',
     ),
     'module' => 'menu',
     'hidden' => 0,
