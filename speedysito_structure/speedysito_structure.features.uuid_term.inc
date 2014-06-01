@@ -53,5 +53,35 @@ function speedysito_structure_uuid_features_default_terms() {
       ),
     ),
   );
+  $terms[] = array(
+    'name' => 'Legale',
+    'description' => '<p>Sede principale</p>
+',
+    'format' => 'editor',
+    'weight' => 0,
+    'uuid' => '69d9522c-70fc-4ac5-baf1-12504146db1e',
+    'vocabulary_machine_name' => 'sedi',
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'sedi/legale',
+        'language' => 'und',
+      ),
+    ),
+  );
+  $terms[] = array(
+    'name' => 'Operativa',
+    'description' => '<p>Sede operativa</p>
+',
+    'format' => 'editor',
+    'weight' => 0,
+    'uuid' => 'ae325f69-ecb8-450f-8114-9e48800e60d8',
+    'vocabulary_machine_name' => 'sedi',
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'sedi/operativa',
+        'language' => 'und',
+      ),
+    ),
+  );
   return $terms;
 }

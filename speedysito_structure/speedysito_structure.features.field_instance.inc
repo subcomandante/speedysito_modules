@@ -190,6 +190,106 @@ function speedysito_structure_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-sede-field_indirizzo'
+  $field_instances['node-sede-field_indirizzo'] = array(
+    'bundle' => 'sede',
+    'default_value' => array(
+      0 => array(
+        'element_key' => 'node|sede|field_indirizzo|und|0',
+        'thoroughfare' => '',
+        'premise' => '',
+        'locality' => '',
+        'country' => 'AF',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'addressfield',
+        'settings' => array(
+          'format_handlers' => array(
+            0 => 'address',
+          ),
+          'use_widget_handlers' => 1,
+        ),
+        'type' => 'addressfield_default',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_indirizzo',
+    'label' => 'Indirizzo',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'addressfield',
+      'settings' => array(
+        'available_countries' => array(),
+        'format_handlers' => array(
+          'address' => 'address',
+          'address-hide-country' => 0,
+          'organisation' => 0,
+          'name-oneline' => 0,
+          'name-full' => 0,
+        ),
+      ),
+      'type' => 'addressfield_standard',
+      'weight' => 33,
+    ),
+  );
+
+  // Exported field_instance: 'node-sede-field_tipo_di_sede'
+  $field_instances['node-sede-field_tipo_di_sede'] = array(
+    'bundle' => 'sede',
+    'default_value' => array(
+      0 => array(
+        'tid' => 6,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_tipo_di_sede',
+    'label' => 'Tipo di sede',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 32,
+    ),
+  );
+
   // Exported field_instance: 'node-webform-body'
   $field_instances['node-webform-body'] = array(
     'bundle' => 'webform',
@@ -239,6 +339,8 @@ function speedysito_structure_field_default_field_instances() {
   t('Alt Text');
   t('Alternative text is used by screen readers, search engines, and when the image cannot be loaded. By adding alt text you improve accessibility and search engine optimization.');
   t('Body');
+  t('Indirizzo');
+  t('Tipo di sede');
   t('Title Text');
   t('Title text is used in the tool tip when a user hovers their mouse over the image. Adding title text makes it easier to understand the context of an image and improves usability.');
 

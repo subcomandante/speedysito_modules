@@ -124,5 +124,55 @@ function speedysito_structure_field_default_field_bases() {
     'type' => 'text',
   );
 
+  // Exported field_base: 'field_indirizzo'
+  $field_bases['field_indirizzo'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_indirizzo',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'addressfield',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'addressfield',
+  );
+
+  // Exported field_base: 'field_tipo_di_sede'
+  $field_bases['field_tipo_di_sede'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_tipo_di_sede',
+    'foreign keys' => array(
+      'tid' => array(
+        'columns' => array(
+          'tid' => 'tid',
+        ),
+        'table' => 'taxonomy_term_data',
+      ),
+    ),
+    'indexes' => array(
+      'tid' => array(
+        0 => 'tid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'taxonomy',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'sedi',
+          'parent' => 0,
+        ),
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'taxonomy_term_reference',
+  );
+
   return $field_bases;
 }
