@@ -15,7 +15,23 @@ function speedysito_structure_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__sede';
   $strongarm->value = array(
-    'view_modes' => array(),
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
     'extra_fields' => array(
       'form' => array(
         'title' => array(
@@ -40,6 +56,13 @@ function speedysito_structure_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'language_content_type_sede';
+  $strongarm->value = '0';
+  $export['language_content_type_sede'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'language_content_type_webform';
   $strongarm->value = '0';
   $export['language_content_type_webform'] = $strongarm;
@@ -54,6 +77,13 @@ function speedysito_structure_strongarm() {
     2 => 'menu-secondary-menu',
   );
   $export['menu_options_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'menu_options_sede';
+  $strongarm->value = array();
+  $export['menu_options_sede'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -75,6 +105,13 @@ function speedysito_structure_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'menu_parent_sede';
+  $strongarm->value = 'main-menu:0';
+  $export['menu_parent_sede'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'menu_parent_webform';
   $strongarm->value = 'main-menu:0';
   $export['menu_parent_webform'] = $strongarm;
@@ -87,6 +124,15 @@ function speedysito_structure_strongarm() {
     0 => 'status',
   );
   $export['node_options_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_sede';
+  $strongarm->value = array(
+    0 => 'status',
+  );
+  $export['node_options_sede'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -108,6 +154,13 @@ function speedysito_structure_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'node_preview_sede';
+  $strongarm->value = '1';
+  $export['node_preview_sede'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_preview_webform';
   $strongarm->value = '1';
   $export['node_preview_webform'] = $strongarm;
@@ -118,6 +171,13 @@ function speedysito_structure_strongarm() {
   $strongarm->name = 'node_submitted_page';
   $strongarm->value = 0;
   $export['node_submitted_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_submitted_sede';
+  $strongarm->value = 0;
+  $export['node_submitted_sede'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

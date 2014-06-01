@@ -190,6 +190,50 @@ function speedysito_structure_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-sede-body'
+  $field_instances['node-sede-body'] = array(
+    'bundle' => 'sede',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'trim_length' => 600,
+        ),
+        'type' => 'text_summary_or_trimmed',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'body',
+    'label' => 'Body',
+    'required' => FALSE,
+    'settings' => array(
+      'display_summary' => TRUE,
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 20,
+        'summary_rows' => 5,
+      ),
+      'type' => 'text_textarea_with_summary',
+      'weight' => 31,
+    ),
+  );
+
   // Exported field_instance: 'node-sede-field_indirizzo'
   $field_instances['node-sede-field_indirizzo'] = array(
     'bundle' => 'sede',
@@ -206,7 +250,7 @@ function speedysito_structure_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'addressfield',
         'settings' => array(
           'format_handlers' => array(
@@ -215,7 +259,7 @@ function speedysito_structure_field_default_field_instances() {
           'use_widget_handlers' => 1,
         ),
         'type' => 'addressfield_default',
-        'weight' => 2,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -263,7 +307,7 @@ function speedysito_structure_field_default_field_instances() {
           'image_style' => '',
         ),
         'type' => 'image',
-        'weight' => 3,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -312,10 +356,9 @@ function speedysito_structure_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'taxonomy',
         'settings' => array(),
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 1,
+        'type' => 'hidden',
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'above',
