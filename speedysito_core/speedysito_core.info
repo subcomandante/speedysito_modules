@@ -13,6 +13,7 @@ dependencies[] = pathologic
 dependencies[] = strongarm
 dependencies[] = system
 dependencies[] = taxonomy
+dependencies[] = views
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[filter][] = plain_text
