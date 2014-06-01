@@ -40,7 +40,8 @@ function speedysito_structure_uuid_features_default_terms() {
   );
   $terms[] = array(
     'name' => 'Eventi',
-    'description' => '',
+    'description' => '<p>Stai organizzando una festa, ti è nato un figlio, stai per partecipare ad una fiera.</p>
+',
     'format' => 'editor',
     'weight' => 0,
     'uuid' => '549b0a12-b221-472f-9bbe-8e3763170227',
