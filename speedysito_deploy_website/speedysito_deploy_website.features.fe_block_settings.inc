@@ -38,7 +38,8 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'delta' => 'speedysito---ies',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'website*',
+    'pages' => '<front>
+website*',
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(

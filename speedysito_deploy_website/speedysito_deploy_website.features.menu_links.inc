@@ -358,26 +358,6 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_bambini:node/11
-  $menu_links['menu-products_bambini:node/11'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/11',
-    'router_path' => 'node/%',
-    'link_title' => 'Bambini',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_bambini:node/11',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-products_band-e-dj:node/22
   $menu_links['menu-products_band-e-dj:node/22'] = array(
     'menu_name' => 'menu-products',
@@ -639,7 +619,6 @@ function speedysito_deploy_website_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('Architetti e decoratori');
   t('Auto e Moto');
-  t('Bambini');
   t('Band e DJ');
   t('Basic');
   t('Bellezza e benessere');

@@ -69,7 +69,6 @@ features[menu_links][] = menu-footer-menu_speedysito-enterprise:node/9
 features[menu_links][] = menu-footer-menu_speedysito-professional:node/8
 features[menu_links][] = menu-products_architetti-e-decoratori:node/12
 features[menu_links][] = menu-products_auto-e-moto:node/19
-features[menu_links][] = menu-products_bambini:node/11
 features[menu_links][] = menu-products_band-e-dj:node/22
 features[menu_links][] = menu-products_bellezza-e-benessere:node/13
 features[menu_links][] = menu-products_eventi-e-musica-live:node/23
