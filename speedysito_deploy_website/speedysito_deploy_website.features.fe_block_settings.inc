@@ -52,6 +52,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['bean-speedysito---info'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'speedysito---info',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => -15,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['bean-speedysito---intro'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -70,6 +90,26 @@ function speedysito_deploy_website_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 1,
+  );
+
+  $export['bean-speedysito---numeroverde'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'speedysito---numeroverde',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'speedysito_website' => array(
+        'region' => 'header',
+        'status' => 1,
+        'theme' => 'speedysito_website',
+        'weight' => -16,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['bean-speedysito---services-basic'] = array(
@@ -205,7 +245,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
         'region' => '',
         'status' => 0,
         'theme' => 'speedysito_website',
-        'weight' => 0,
+        'weight' => -4,
       ),
     ),
     'title' => '',
@@ -248,7 +288,7 @@ function speedysito_deploy_website_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -282,10 +322,10 @@ function speedysito_deploy_website_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'speedysito_website' => array(
-        'region' => 'header',
+        'region' => 'header_bottom',
         'status' => 1,
         'theme' => 'speedysito_website',
-        'weight' => 0,
+        'weight' => -15,
       ),
     ),
     'title' => '',

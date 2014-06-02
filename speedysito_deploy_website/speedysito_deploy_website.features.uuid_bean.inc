@@ -191,6 +191,44 @@ CF e PI IT05464360014</span></div>',
     'url_alias' => array(),
   );
   $beans[] = array(
+    'label' => 'SpeedySito - Info',
+    'description' => NULL,
+    'title' => '',
+    'type' => 'block',
+    'data' => array(
+      'view_mode' => 'default',
+    ),
+    'delta' => 'speedysito---info',
+    'view_mode' => 'default',
+    'created' => 1401698645,
+    'log' => '',
+    'uid' => 1,
+    'default_revision' => 1,
+    'revisions' => array(),
+    'vuuid' => 'cf366a54-97e1-48fe-87aa-1eabcca6f357',
+    'uuid' => '82c70b05-457c-495f-b011-530652414ed5',
+    'field_body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<div id="box-header">
+<p class="rteright"><span style="color:rgb(1, 144, 53)">Maggiori Informazioni</span><br />
+<strong>Lun-Ven 9:00-13:00/14:00-18:00</strong><br />
+Chiamata Gratuita</p>
+</div>
+',
+          'format' => 'editor',
+          'safe_value' => '<div id="box-header">
+<p class="rteright"><span style="color:rgb(1, 144, 53)">Maggiori Informazioni</span><br />
+<strong>Lun-Ven 9:00-13:00/14:00-18:00</strong><br />
+Chiamata Gratuita</p>
+</div>
+',
+        ),
+      ),
+    ),
+    'url_alias' => array(),
+  );
+  $beans[] = array(
     'label' => 'SpeedySito - Vantaggi',
     'description' => NULL,
     'title' => 'Il tuo nuovo sito web',
@@ -260,6 +298,36 @@ CF e PI IT05464360014</span></div>',
 </div>
 
 <div class="speedysito-services-moreinfo rtecenter"><a class="testround speedysito-enterprise-moreinfo" href="/prodotto/speedysito-enterprise">Ulteriori informazioni</a></div>
+',
+        ),
+      ),
+    ),
+    'url_alias' => array(),
+  );
+  $beans[] = array(
+    'label' => 'SpeedySito - NumeroVerde',
+    'description' => NULL,
+    'title' => '',
+    'type' => 'block',
+    'data' => array(
+      'view_mode' => 'default',
+    ),
+    'delta' => 'speedysito---numeroverde',
+    'view_mode' => 'default',
+    'created' => 1401698730,
+    'log' => '',
+    'uid' => 1,
+    'default_revision' => 1,
+    'revisions' => array(),
+    'vuuid' => 'f4edfcce-b665-4817-ac8f-831c15764a35',
+    'uuid' => 'f68bf5ea-fc44-4002-85fb-df2bb84af000',
+    'field_body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<strong>800</strong> 090276
+',
+          'format' => 'editor',
+          'safe_value' => '<strong>800</strong> 090276
 ',
         ),
       ),

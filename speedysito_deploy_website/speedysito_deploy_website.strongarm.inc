@@ -55,7 +55,7 @@ function speedysito_deploy_website_strongarm() {
     'default_favicon' => 1,
     'favicon_path' => '',
     'favicon_upload' => '',
-    'zen_breadcrumb' => 'yes',
+    'zen_breadcrumb' => 'no',
     'zen_breadcrumb_separator' => ' › ',
     'zen_breadcrumb_home' => 1,
     'zen_breadcrumb_trailing' => 0,
