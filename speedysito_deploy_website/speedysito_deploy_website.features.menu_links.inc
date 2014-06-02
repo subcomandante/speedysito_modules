@@ -10,6 +10,42 @@
 function speedysito_deploy_website_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_architetti-e-decoratori:node/12
+  $menu_links['main-menu_architetti-e-decoratori:node/12'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/12',
+    'router_path' => 'node/%',
+    'link_title' => 'Architetti e decoratori',
+    'options' => array(
+      'identifier' => 'main-menu_architetti-e-decoratori:node/12',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
+  // Exported menu link: main-menu_auto-e-moto:node/19
+  $menu_links['main-menu_auto-e-moto:node/19'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/19',
+    'router_path' => 'node/%',
+    'link_title' => 'Auto e Moto',
+    'options' => array(
+      'identifier' => 'main-menu_auto-e-moto:node/19',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
   // Exported menu link: main-menu_basic:node/7
   $menu_links['main-menu_basic:node/7'] = array(
     'menu_name' => 'main-menu',
@@ -80,6 +116,60 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_intrattenimento:node/23
+  $menu_links['main-menu_intrattenimento:node/23'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/23',
+    'router_path' => 'node/%',
+    'link_title' => 'Intrattenimento',
+    'options' => array(
+      'identifier' => 'main-menu_intrattenimento:node/23',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
+  // Exported menu link: main-menu_musica:node/22
+  $menu_links['main-menu_musica:node/22'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/22',
+    'router_path' => 'node/%',
+    'link_title' => 'Musica',
+    'options' => array(
+      'identifier' => 'main-menu_musica:node/22',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
+  // Exported menu link: main-menu_negozi:node/20
+  $menu_links['main-menu_negozi:node/20'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/20',
+    'router_path' => 'node/%',
+    'link_title' => 'Negozi',
+    'options' => array(
+      'identifier' => 'main-menu_negozi:node/20',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
   // Exported menu link: main-menu_professional:node/8
   $menu_links['main-menu_professional:node/8'] = array(
     'menu_name' => 'main-menu',
@@ -98,6 +188,24 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_il-prodotto:node/2',
   );
+  // Exported menu link: main-menu_ristorazione-e-alberghi:node/17
+  $menu_links['main-menu_ristorazione-e-alberghi:node/17'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/17',
+    'router_path' => 'node/%',
+    'link_title' => 'Ristorazione e Alberghi',
+    'options' => array(
+      'identifier' => 'main-menu_ristorazione-e-alberghi:node/17',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
   // Exported menu link: main-menu_rivenditori:node/4
   $menu_links['main-menu_rivenditori:node/4'] = array(
     'menu_name' => 'main-menu',
@@ -115,6 +223,24 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_salute-e-bellezza:node/13
+  $menu_links['main-menu_salute-e-bellezza:node/13'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/13',
+    'router_path' => 'node/%',
+    'link_title' => 'Salute e Bellezza',
+    'options' => array(
+      'identifier' => 'main-menu_salute-e-bellezza:node/13',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
   // Exported menu link: main-menu_siti-di-esempio:node/3
   $menu_links['main-menu_siti-di-esempio:node/3'] = array(
     'menu_name' => 'main-menu',
@@ -127,10 +253,46 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 0,
+    'has_children' => 1,
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_sito-personale:node/18
+  $menu_links['main-menu_sito-personale:node/18'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/18',
+    'router_path' => 'node/%',
+    'link_title' => 'Sito personale',
+    'options' => array(
+      'identifier' => 'main-menu_sito-personale:node/18',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+  );
+  // Exported menu link: main-menu_sport-e-tempo-libero:node/15
+  $menu_links['main-menu_sport-e-tempo-libero:node/15'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/15',
+    'router_path' => 'node/%',
+    'link_title' => 'Sport e tempo libero',
+    'options' => array(
+      'identifier' => 'main-menu_sport-e-tempo-libero:node/15',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
   );
   // Exported menu link: menu-footer-menu_contattaci:node/6
   $menu_links['menu-footer-menu_contattaci:node/6'] = array(
@@ -358,57 +520,17 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_band-e-dj:node/22
-  $menu_links['menu-products_band-e-dj:node/22'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/22',
-    'router_path' => 'node/%',
-    'link_title' => 'Band e DJ',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_band-e-dj:node/22',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-products_bellezza-e-benessere:node/13
-  $menu_links['menu-products_bellezza-e-benessere:node/13'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/13',
-    'router_path' => 'node/%',
-    'link_title' => 'Bellezza e benessere',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_bellezza-e-benessere:node/13',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-products_eventi-e-musica-live:node/23
-  $menu_links['menu-products_eventi-e-musica-live:node/23'] = array(
+  // Exported menu link: menu-products_intrattenimento:node/23
+  $menu_links['menu-products_intrattenimento:node/23'] = array(
     'menu_name' => 'menu-products',
     'link_path' => 'node/23',
     'router_path' => 'node/%',
-    'link_title' => 'Eventi e musica live',
+    'link_title' => 'Intrattenimento',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-products_eventi-e-musica-live:node/23',
+      'identifier' => 'menu-products_intrattenimento:node/23',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -418,37 +540,17 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_folk-music:node/21
-  $menu_links['menu-products_folk-music:node/21'] = array(
+  // Exported menu link: menu-products_musica:node/22
+  $menu_links['menu-products_musica:node/22'] = array(
     'menu_name' => 'menu-products',
-    'link_path' => 'node/21',
+    'link_path' => 'node/22',
     'router_path' => 'node/%',
-    'link_title' => 'Folk Music',
+    'link_title' => 'Musica',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-products_folk-music:node/21',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-products_medici-e-veterinari:node/14
-  $menu_links['menu-products_medici-e-veterinari:node/14'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/14',
-    'router_path' => 'node/%',
-    'link_title' => 'Medici e Veterinari',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_medici-e-veterinari:node/14',
+      'identifier' => 'menu-products_musica:node/22',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -478,17 +580,17 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_pasticcerie-e-gelaterie:node/16
-  $menu_links['menu-products_pasticcerie-e-gelaterie:node/16'] = array(
+  // Exported menu link: menu-products_ristorazione-e-alberghi:node/17
+  $menu_links['menu-products_ristorazione-e-alberghi:node/17'] = array(
     'menu_name' => 'menu-products',
-    'link_path' => 'node/16',
+    'link_path' => 'node/17',
     'router_path' => 'node/%',
-    'link_title' => 'Pasticcerie e gelaterie',
+    'link_title' => 'Ristorazione e Alberghi',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-products_pasticcerie-e-gelaterie:node/16',
+      'identifier' => 'menu-products_ristorazione-e-alberghi:node/17',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -498,17 +600,17 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_ristoranti-e-hotel:node/17
-  $menu_links['menu-products_ristoranti-e-hotel:node/17'] = array(
+  // Exported menu link: menu-products_salute-e-bellezza:node/13
+  $menu_links['menu-products_salute-e-bellezza:node/13'] = array(
     'menu_name' => 'menu-products',
-    'link_path' => 'node/17',
+    'link_path' => 'node/13',
     'router_path' => 'node/%',
-    'link_title' => 'Ristoranti e hotel',
+    'link_title' => 'Salute e Bellezza',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-products_ristoranti-e-hotel:node/17',
+      'identifier' => 'menu-products_salute-e-bellezza:node/13',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -538,17 +640,17 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_sport:node/15
-  $menu_links['menu-products_sport:node/15'] = array(
+  // Exported menu link: menu-products_sport-e-tempo-libero:node/15
+  $menu_links['menu-products_sport-e-tempo-libero:node/15'] = array(
     'menu_name' => 'menu-products',
     'link_path' => 'node/15',
     'router_path' => 'node/%',
-    'link_title' => 'Sport',
+    'link_title' => 'Sport e tempo libero',
     'options' => array(
       'attributes' => array(
         'title' => '',
       ),
-      'identifier' => 'menu-products_sport:node/15',
+      'identifier' => 'menu-products_sport-e-tempo-libero:node/15',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -619,34 +721,31 @@ function speedysito_deploy_website_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('Architetti e decoratori');
   t('Auto e Moto');
-  t('Band e DJ');
   t('Basic');
-  t('Bellezza e benessere');
   t('Chi siamo');
   t('Contattaci');
   t('Diventa rivenditore');
   t('Enterprise');
   t('Esempi');
-  t('Eventi e musica live');
-  t('Folk Music');
   t('Home');
   t('Il Prodotto');
   t('Il prodotto');
   t('Informazioni');
+  t('Intrattenimento');
   t('Lavora con noi');
-  t('Medici e Veterinari');
+  t('Musica');
   t('Negozi');
-  t('Pasticcerie e gelaterie');
   t('Portfolio');
   t('Professional');
-  t('Ristoranti e hotel');
+  t('Ristorazione e Alberghi');
   t('Rivenditori');
+  t('Salute e Bellezza');
   t('Siti di esempio');
   t('Sito personale');
   t('SpeedySito Basic');
   t('SpeedySito Enterprise');
   t('SpeedySito Professional');
-  t('Sport');
+  t('Sport e tempo libero');
 
 
   return $menu_links;
