@@ -208,6 +208,7 @@ function speedysito_deploy_website_uuid_default_entities() {
 <p><img alt="" class="attr__field_file_image_alt_text[und][0][value]__ attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__28 img__view_mode__default media-image" src="http://devel.speedysito.it/sites/default/files/CheSpeedySitoVuoi.jpg" /></p>
 
 <p>Puoi scegliere tra molti modelli tematici e personalizzarli nei testi e nella grafica.</p>
+
 <ul class="speedysito-menu-icons">
 	<li><a class="architettura" href="/node/12"><span>Architettura<br />
 	Decorazione<br />
@@ -246,7 +247,8 @@ function speedysito_deploy_website_uuid_default_entities() {
 <ul class="speedysito-menu-icons">
 	<li><a class="sitopersonale" href="/node/18"><span>Sito personale</span></a></li>
 	<li class="last"><a class="sport" href="/node/15"><span>Sport</span></a></li>
-</ul>',
+</ul>
+',
         ),
       ),
     ),
@@ -255,7 +257,7 @@ function speedysito_deploy_website_uuid_default_entities() {
     'field_sitemap' => array(),
     'language' => 'it',
     'log' => '',
-    'page_title' => 'Siti di esempio',
+    'page_title' => 'Website templates',
     'promote' => 0,
     'status' => 1,
     'sticky' => 0,

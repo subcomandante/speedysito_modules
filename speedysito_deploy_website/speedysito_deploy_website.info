@@ -64,7 +64,6 @@ features[menu_links][] = main-menu_professional:node/8
 features[menu_links][] = main-menu_ristorazione-e-alberghi:node/17
 features[menu_links][] = main-menu_rivenditori:node/4
 features[menu_links][] = main-menu_salute-e-bellezza:node/13
-features[menu_links][] = main-menu_siti-di-esempio:node/3
 features[menu_links][] = main-menu_sito-personale:node/18
 features[menu_links][] = main-menu_sport-e-tempo-libero:node/15
 features[menu_links][] = menu-footer-menu_contattaci:node/6

@@ -26,7 +26,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_auto-e-moto:node/19
   $menu_links['main-menu_auto-e-moto:node/19'] = array(
@@ -44,7 +44,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_basic:node/7
   $menu_links['main-menu_basic:node/7'] = array(
@@ -132,7 +132,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_musica:node/22
   $menu_links['main-menu_musica:node/22'] = array(
@@ -150,7 +150,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_negozi:node/20
   $menu_links['main-menu_negozi:node/20'] = array(
@@ -168,7 +168,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_professional:node/8
   $menu_links['main-menu_professional:node/8'] = array(
@@ -204,7 +204,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_rivenditori:node/4
   $menu_links['main-menu_rivenditori:node/4'] = array(
@@ -239,24 +239,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
-  );
-  // Exported menu link: main-menu_siti-di-esempio:node/3
-  $menu_links['main-menu_siti-di-esempio:node/3'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/3',
-    'router_path' => 'node/%',
-    'link_title' => 'Siti di esempio',
-    'options' => array(
-      'identifier' => 'main-menu_siti-di-esempio:node/3',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_sito-personale:node/18
   $menu_links['main-menu_sito-personale:node/18'] = array(
@@ -274,7 +257,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_sport-e-tempo-libero:node/15
   $menu_links['main-menu_sport-e-tempo-libero:node/15'] = array(
@@ -292,7 +275,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'main-menu_siti-di-esempio:node/3',
+    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: menu-footer-menu_contattaci:node/6
   $menu_links['menu-footer-menu_contattaci:node/6'] = array(
@@ -740,7 +723,6 @@ function speedysito_deploy_website_menu_default_menu_links() {
   t('Ristorazione e Alberghi');
   t('Rivenditori');
   t('Salute e Bellezza');
-  t('Siti di esempio');
   t('Sito personale');
   t('SpeedySito Basic');
   t('SpeedySito Enterprise');
