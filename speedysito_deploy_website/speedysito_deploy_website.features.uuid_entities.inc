@@ -1299,7 +1299,7 @@ E\' una bella proposta!Contattaci!</p>
     'uid' => 1,
     'url_alias' => array(
       0 => array(
-        'alias' => 'website/bellezza-e-benessere',
+        'alias' => 'website/salute-e-bellezza',
         'language' => 'it',
       ),
     ),
@@ -1399,7 +1399,7 @@ SpeedySito è una soluzione vincente! Contattaci</p>
     'uid' => 1,
     'url_alias' => array(
       0 => array(
-        'alias' => 'website/sport',
+        'alias' => 'website/sport-e-tempo-libero',
         'language' => 'it',
       ),
     ),
@@ -1498,7 +1498,7 @@ Ti sembra una soluzione comoda? Contattaci</p>
     'uid' => 1,
     'url_alias' => array(
       0 => array(
-        'alias' => 'website/ristoranti-e-hotel',
+        'alias' => 'website/ristorazione-e-alberghi',
         'language' => 'it',
       ),
     ),
@@ -1892,7 +1892,7 @@ Ti suona bene? Contattaci!</p>
     'uid' => 1,
     'url_alias' => array(
       0 => array(
-        'alias' => 'website/band-e-dj',
+        'alias' => 'website/musica',
         'language' => 'it',
       ),
     ),
@@ -1991,7 +1991,7 @@ Vuoi più informazioni? Contattaci!</p>
     'uid' => 1,
     'url_alias' => array(
       0 => array(
-        'alias' => 'website/eventi-e-musica-live',
+        'alias' => 'website/intrattenimento',
         'language' => 'it',
       ),
     ),
