@@ -193,26 +193,6 @@ website*',
     'visibility' => 1,
   );
 
-  $export['blockify-blockify-messages'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 'blockify-messages',
-    'module' => 'blockify',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'speedysito_website' => array(
-        'region' => 'header_top',
-        'status' => 1,
-        'theme' => 'speedysito_website',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['blockify-blockify-page-title'] = array(
     'cache' => 4,
     'custom' => 0,

@@ -134,6 +134,23 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'customized' => 0,
     'parent_identifier' => 'main-menu_modelli:node/3',
   );
+  // Exported menu link: main-menu_modelli:node/3
+  $menu_links['main-menu_modelli:node/3'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/3',
+    'router_path' => 'node/%',
+    'link_title' => 'Modelli',
+    'options' => array(
+      'identifier' => 'main-menu_modelli:node/3',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_musica:node/22
   $menu_links['main-menu_musica:node/22'] = array(
     'menu_name' => 'main-menu',
@@ -716,6 +733,7 @@ function speedysito_deploy_website_menu_default_menu_links() {
   t('Informazioni');
   t('Intrattenimento');
   t('Lavora con noi');
+  t('Modelli');
   t('Musica');
   t('Negozi');
   t('Portfolio');
