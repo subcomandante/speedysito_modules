@@ -24,11 +24,11 @@ function speedysito_appearance_strongarm() {
   $strongarm->value = array(
     'blockify-page-title' => 'blockify-page-title',
     'blockify-tabs' => 'blockify-tabs',
-    'blockify-messages' => 'blockify-messages',
     'blockify-logo' => 0,
     'blockify-site-name' => 0,
     'blockify-site-slogan' => 0,
     'blockify-breadcrumb' => 0,
+    'blockify-messages' => 0,
     'blockify-actions' => 0,
     'blockify-feed-icons' => 0,
   );
