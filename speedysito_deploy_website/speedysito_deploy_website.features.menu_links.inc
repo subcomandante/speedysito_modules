@@ -116,24 +116,6 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_intrattenimento:node/23
-  $menu_links['main-menu_intrattenimento:node/23'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/23',
-    'router_path' => 'node/%',
-    'link_title' => 'Intrattenimento',
-    'options' => array(
-      'identifier' => 'main-menu_intrattenimento:node/23',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'main-menu_modelli:node/3',
-  );
   // Exported menu link: main-menu_modelli:node/3
   $menu_links['main-menu_modelli:node/3'] = array(
     'menu_name' => 'main-menu',
@@ -150,42 +132,6 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
-  );
-  // Exported menu link: main-menu_musica:node/22
-  $menu_links['main-menu_musica:node/22'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/22',
-    'router_path' => 'node/%',
-    'link_title' => 'Musica',
-    'options' => array(
-      'identifier' => 'main-menu_musica:node/22',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'main-menu_modelli:node/3',
-  );
-  // Exported menu link: main-menu_negozi:node/20
-  $menu_links['main-menu_negozi:node/20'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/20',
-    'router_path' => 'node/%',
-    'link_title' => 'Negozi',
-    'options' => array(
-      'identifier' => 'main-menu_negozi:node/20',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'main-menu_modelli:node/3',
   );
   // Exported menu link: main-menu_professional:node/8
   $menu_links['main-menu_professional:node/8'] = array(
@@ -520,66 +466,6 @@ function speedysito_deploy_website_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-products_intrattenimento:node/23
-  $menu_links['menu-products_intrattenimento:node/23'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/23',
-    'router_path' => 'node/%',
-    'link_title' => 'Intrattenimento',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_intrattenimento:node/23',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-products_musica:node/22
-  $menu_links['menu-products_musica:node/22'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/22',
-    'router_path' => 'node/%',
-    'link_title' => 'Musica',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_musica:node/22',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-products_negozi:node/20
-  $menu_links['menu-products_negozi:node/20'] = array(
-    'menu_name' => 'menu-products',
-    'link_path' => 'node/20',
-    'router_path' => 'node/%',
-    'link_title' => 'Negozi',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-products_negozi:node/20',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-products_ristorazione-e-alberghi:node/17
   $menu_links['menu-products_ristorazione-e-alberghi:node/17'] = array(
     'menu_name' => 'menu-products',
@@ -731,11 +617,8 @@ function speedysito_deploy_website_menu_default_menu_links() {
   t('Il Prodotto');
   t('Il prodotto');
   t('Informazioni');
-  t('Intrattenimento');
   t('Lavora con noi');
   t('Modelli');
-  t('Musica');
-  t('Negozi');
   t('Portfolio');
   t('Professional');
   t('Ristorazione e Alberghi');

@@ -108,9 +108,10 @@ function speedysito_structure_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_page';
   $strongarm->value = array(
-    0 => 'menu-footer-menu',
-    1 => 'main-menu',
-    2 => 'menu-secondary-menu',
+    0 => 'menu-products',
+    1 => 'menu-footer-menu',
+    2 => 'main-menu',
+    3 => 'menu-secondary-menu',
   );
   $export['menu_options_page'] = $strongarm;
 
