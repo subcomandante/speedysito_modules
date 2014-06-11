@@ -29,7 +29,6 @@ features[user_role][] = Content editor
 features[user_role][] = Site manager
 features[variable][] = clean_url
 features[variable][] = cron_key
-features[variable][] = cron_last
 features[variable][] = file_temporary_path
 features[variable][] = filter_fallback_format
 features[variable][] = install_profile
