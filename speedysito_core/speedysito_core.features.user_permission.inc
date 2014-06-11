@@ -70,13 +70,6 @@ function speedysito_core_user_default_permissions() {
     'module' => 'system',
   );
 
-  // Exported permission: 'administer blocks'.
-  $permissions['administer blocks'] = array(
-    'name' => 'administer blocks',
-    'roles' => array(),
-    'module' => 'block',
-  );
-
   // Exported permission: 'administer content types'.
   $permissions['administer content types'] = array(
     'name' => 'administer content types',
