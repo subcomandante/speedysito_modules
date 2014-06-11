@@ -61,97 +61,136 @@ http://ftp.drupal.org/files/projects/configuration-7.x-2.x-dev.tar.gz (http://ft
 
 /* ****************************************************************************** */
 
+BUILD -> DEVELOPMENT -> STAGING -> PRODUCTION
+  ^_________|
+
+
 Installazione di base:
-cd /dfs/Devel/speedysito/build.speedysito.it # BUILD
-cd /dfs/Devel/speedysito/test.speedysito.it  # TEST
+cd /dfs/Devel/speedysito/build.speedysito.it    #BUILD
+cd /dfs/Devel/speedysito/devel.speedysito.it    #DEVEL
+cd /dfs/Devel/speedysito/staging.speedysito.it  #STAGING
+
 drush dl drupal-7 --drupal-project-rename=www
 cd www
+
+
 # BUILD
 drush site-install minimal --site-name=SpeedySito --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://speedysitobuild:speedysitobuild@localhost/speedysitobuild -y
-# TEST
-drush site-install minimal --site-name=SpeedySito --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://speedysitotest:speedysitotest@localhost/speedysitotest -y
+# DEVEL
+drush site-install minimal --site-name=SpeedySito --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://speedysitodevel:speedysitodevel@localhost/speedysitodevel -y
+# STAGING
+drush site-install minimal --site-name=SpeedySito --account-name=altaman --account-pass=Sp33dySit0! --db-url=mysql://ssstaging:ssstaging@localhost/ssstaging -y
+
+
 
 # Create Manager and Editor user
-#drush user-create manager --mail="manager@speedysito.it" --password="speedysito"
-#drush user-create editor --password="speedysito"
+drush user-create manager --mail="manager@speedysito.it" --password="speedysito"
+drush user-create editor --password="speedysito"
 
 
 
 # SpeedySito MODULES
 cd sites/all/modules/
-#cp /dfs/Devel/speedysito/speedysito/modules.tgz .
-#tar xzf modules.tgz
-#for file in `ls *.tar`; do tar xvf $file; done
-#rm -f *.tar
-#rm -f modules.tgz
 for file in `ls /dfs/Devel/speedysito/speedysito/modules`; do ln -s /dfs/Devel/speedysito/speedysito/modules/$file .; done
 
 # SpeedySito LIBRARIES
 cd ..
 mkdir libraries
 cd libraries
-# cp /dfs/Devel/speedysito/DOCUMENTATION/libraries.tgz .
 cp /dfs/Devel/speedysito/speedysito/libraries.tgz .
 tar xzf libraries.tgz
 rm -f libraries.tgz
 
 # SpeedySito THEMES
-#cd ../themes
-#drush dl zen
-#cp /dfs/Devel/speedysito/DOCUMENTATION/themes/speedysito.tgz .
-#tar xzvf speedysito.tgz
-
-# SpeedySito GIT THEME
 cd ../themes
 drush dl zen
 # git clone https://github.com/subcomandante/speedysito_core_theme.git speedysito
-#ln -s /dfs/Devel/speedysito/themes/speedysito .
-#ln -s /dfs/Devel/speedysito/themes/speedysito_website .
 ln -s /dfs/Devel/speedysito/speedysito/themes/speedysito .
 ln -s /dfs/Devel/speedysito/speedysito/themes/speedysito_website .
 
-# Setting web permissions
-cd ../../../..
-chown -R www-data:www-data www
-cd www
+cd ../../..
 
-
-#drush en speedysito_devel -y
-#drush en speedysito_devel_extras -y	# Manca dipendenza features_extra
-
-#drush dl features-7.x-2.x-dev
-#drush dl strongarm-7.x-2.x-dev
 
 drush en speedysito_setup -y
+drush en speedysito_garbage -y
+
+	drush en speedysito_core -y
+
+	# CONTENT
+		# Blocks
+		drush en speedysito_blocks -y
+
+		# Path
+		drush en speedysito_path -y
+
+		# Appearance
+		drush en speedysito_appearance -y
+
+	# UI
 
 
-drush en speedysito_core -y
-drush en speedysito_appearance -y
+# SKINR DEV because of features integration (current 7.x-2.0-beta1 doesn't support features) (NOT USEFUL ATM)
+# drush dl skinr-7.x-2.x-dev
 drush en speedysito_localization -y
 drush en speedysito_structure -y
 drush en speedysito_administration -y
+# MEDIA 2.0-alpha3 because of split of file_entity (into structure)
+drush dl media-7.x-2.0-alpha3
 drush en speedysito_editor -y
 drush en speedysito_translation -y
 
-#drush en speedysito_devel -y
-
-drush dl features_extra		# bug di features? non lo vede come dipendenza
-drush en speedysito_export -y
 
 Da spostare in setup
 # Create Manager and Editor user
-drush user-create manager --mail="manager@speedysito.it" --password="speedysito"
-drush user-create editor --password="speedysito"
+#drush user-create manager --mail="manager@speedysito.it" --password="speedysito"
+#drush user-create editor --password="speedysito"
 
 drush user-add-role "Site manager" manager
 drush user-add-role "Content editor" editor
 
+
 # Import/Export
 
 # DEPLOY (speedysito_export, plan speedysito_content_export fetch only, no endpoints)
-https://drupal.org/node/1982890
-# ATTENZIONE: Come da https://drupal.org/node/1406134 Deploy ha bisogno di una versione di entity dependency superiore alla alpha1 (correntemente default)!
+# https://drupal.org/node/1982890
+# ATTENZIONE!:
+# Come da https://drupal.org/node/1406134 Deploy ha bisogno di una versione di entity dependency superiore alla alpha1 (correntemente default), quindi usiamo la dev!
 drush dl entity_dependency-7.x-1.x-dev
+drush dl features_extra    # bug di features? non lo vede come dipendenza
+# Come da features requests per entity_menu_link, bisogna attivare deploy_auto_plan, altrimenti niente menu!
+drush en speedysito_export -y
+
+drush en speedysito_deploy_website -y
+
+#drush features-revert-all
+drush features-revert speedysito_core -y
+drush features-revert speedysito_localization -y
+drush features-revert speedysito_translation -y
+
+
+# Website deploy TODO: split
+drush features-revert speedysito_deploy_website -y
+
+
+
+drush l10n-update
+drush cc all
+
+
+# Setting web permissions
+cd ..
+chown -R www-data:www-data www
+
+
+# Resta da resettare il tema di default (solo uno disattivanto bartik) ed un giro su features recover, skinr import
+# Skinr Import/Export non integrato (non integrabile) ma attualmente funzionante
+# Media Import/Export non integrato
+
+________________________________________________
+
+
+
+
 
 # pre feature
 drush dl deploy
@@ -170,7 +209,7 @@ deploy_ui
 
 
 entity_uuid , commerce_uuid ?
-
+entity_menu_links	# Deploy menu links
 
 
 
@@ -357,15 +396,42 @@ TODO:
 Administrative theme favicon.. (maybe do our admin theme?)
 
 
+######################################################################################
+Latest ok (commit on public)
+269f0688b3f5c03eaf04fe130c0d7ad9e68fccfb
+
+Provare ad usare bean
+
+
+
+====================================================================================
+Studi approfonditi per oggetto dell'attività
+====================================================================================
+
+
+
+Moduli Features per oggetto di attività
+
+speedysito_website_oggetto
+Per esempio:
+Hotel ristorante
+Ristorante
+
+Magari è meglio spezzarlo in funzionalità, per esempio:
+Camere (prenota)
+Prodotti (alimentari e non)
+Menu ristorante (ristoranti)
+etc..
+
+
+
+Problema del tema, magari impostare qualcosa tipo:
+zen -> Tema base (Speedysito) -> Tema personalizzato (Speedysito Restaurant) -> Tema helper (Speedysito Helper)
+in questo modo basta solo modificare la dipendenza del tema helper per cambiare tema pur mantenendo un nome comune per fe_block, etc.. ???
 
 
 
 
 
-
-Imported node 1: Un Prodotto vincente per Aziende vincenti !
-Imported node 2: Entra nel nostro team e lavora con noi!
-Imported node 3: Home
-Imported node 4: Muovi i primi passi nella rete con la versione BASIC
 
 
