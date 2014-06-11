@@ -5,6 +5,7 @@ package = SpeedySito
 version = 7.x-1.0-alpha2
 project = speedysito_core
 dependencies[] = filter
+dependencies[] = libraries
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = speedysito_setup

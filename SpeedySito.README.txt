@@ -119,7 +119,7 @@ drush en speedysito_core -y
 
 # CONTENT
 # Content types
-drush dl webform-7.x-4.0-rc3 -y #(not stable yet, so manual download)
+drush dl webform-7.x-4.0-rc3 -y              #(not stable yet, so manual download)
 drush en speedysito_content -y
 # Blocks
 drush en speedysito_blocks -y
