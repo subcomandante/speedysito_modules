@@ -14,4 +14,5 @@ features[variable][] = css_js_query_string
 features[variable][] = drupal_private_key
 features[variable][] = features_codecache
 features[variable][] = install_time
+features[variable][] = menu_masks
 features[variable][] = update_last_check

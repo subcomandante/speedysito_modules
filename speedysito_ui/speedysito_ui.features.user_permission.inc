@@ -24,5 +24,26 @@ function speedysito_ui_user_default_permissions() {
     'module' => 'navbar',
   );
 
+  // Exported permission: 'administer skinr'.
+  $permissions['administer skinr'] = array(
+    'name' => 'administer skinr',
+    'roles' => array(),
+    'module' => 'skinr_ui',
+  );
+
+  // Exported permission: 'edit advanced skin settings'.
+  $permissions['edit advanced skin settings'] = array(
+    'name' => 'edit advanced skin settings',
+    'roles' => array(),
+    'module' => 'skinr_ui',
+  );
+
+  // Exported permission: 'edit skin settings'.
+  $permissions['edit skin settings'] = array(
+    'name' => 'edit skin settings',
+    'roles' => array(),
+    'module' => 'skinr_ui',
+  );
+
   return $permissions;
 }
