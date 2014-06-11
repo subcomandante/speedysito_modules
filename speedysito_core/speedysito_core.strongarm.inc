@@ -21,14 +21,14 @@ function speedysito_core_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_key';
-  $strongarm->value = '8Z8h6UM8J35rv2tRWAGsLldoFS2TFhQ-AaX4UxVkWqQ';
+  $strongarm->value = '2S-7pwV0v01jAfeZ-igrmdJh2ZZYjGvYDXmPepUSvwo';
   $export['cron_key'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1402501332;
+  $strongarm->value = 1402505914;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -58,13 +58,6 @@ function speedysito_core_strongarm() {
   $strongarm->name = 'install_task';
   $strongarm->value = 'done';
   $export['install_task'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'install_time';
-  $strongarm->value = 1402501332;
-  $export['install_time'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -122,7 +115,7 @@ function speedysito_core_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_pattern';
-  $strongarm->value = '[node:title]';
+  $strongarm->value = 'content/[node:title]';
   $export['pathauto_node_pattern'] = $strongarm;
 
   $strongarm = new stdClass();

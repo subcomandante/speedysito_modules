@@ -34,7 +34,6 @@ features[variable][] = file_temporary_path
 features[variable][] = filter_fallback_format
 features[variable][] = install_profile
 features[variable][] = install_task
-features[variable][] = install_time
 features[variable][] = menu_expanded
 features[variable][] = menu_masks
 features[variable][] = path_alias_whitelist
