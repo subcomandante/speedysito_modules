@@ -24,6 +24,13 @@ function speedysito_ui_user_default_permissions() {
     'module' => 'navbar',
   );
 
+  // Exported permission: 'administer module filter'.
+  $permissions['administer module filter'] = array(
+    'name' => 'administer module filter',
+    'roles' => array(),
+    'module' => 'module_filter',
+  );
+
   // Exported permission: 'administer skinr'.
   $permissions['administer skinr'] = array(
     'name' => 'administer skinr',
