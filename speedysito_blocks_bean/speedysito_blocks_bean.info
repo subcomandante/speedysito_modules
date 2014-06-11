@@ -5,6 +5,7 @@ package = SpeedySito
 version = 7.x-1.0-alpha1
 project = speedysito_blocks_bean
 dependencies[] = bean
+dependencies[] = bean_all
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = views
