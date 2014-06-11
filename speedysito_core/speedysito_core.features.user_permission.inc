@@ -13,10 +13,7 @@ function speedysito_core_user_default_permissions() {
   // Exported permission: 'access administration pages'.
   $permissions['access administration pages'] = array(
     'name' => 'access administration pages',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-      'Site manager' => 'Site manager',
-    ),
+    'roles' => array(),
     'module' => 'system',
   );
 
@@ -33,19 +30,14 @@ function speedysito_core_user_default_permissions() {
   // Exported permission: 'access content overview'.
   $permissions['access content overview'] = array(
     'name' => 'access content overview',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
   // Exported permission: 'access site in maintenance mode'.
   $permissions['access site in maintenance mode'] = array(
     'name' => 'access site in maintenance mode',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-      'Site manager' => 'Site manager',
-    ),
+    'roles' => array(),
     'module' => 'system',
   );
 
@@ -87,9 +79,7 @@ function speedysito_core_user_default_permissions() {
   // Exported permission: 'administer menu'.
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+    'roles' => array(),
     'module' => 'menu',
   );
 
@@ -103,9 +93,7 @@ function speedysito_core_user_default_permissions() {
   // Exported permission: 'administer nodes'.
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -196,9 +184,7 @@ function speedysito_core_user_default_permissions() {
   // Exported permission: 'view own unpublished content'.
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-    ),
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -212,10 +198,7 @@ function speedysito_core_user_default_permissions() {
   // Exported permission: 'view the administration theme'.
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
-    'roles' => array(
-      'Content editor' => 'Content editor',
-      'Site manager' => 'Site manager',
-    ),
+    'roles' => array(),
     'module' => 'system',
   );
 

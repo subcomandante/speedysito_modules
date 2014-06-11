@@ -118,13 +118,17 @@ drush en speedysito_garbage -y
 drush en speedysito_core -y
 
 # CONTENT
+# Content types
+drush en speedysito_content -y
 # Blocks
 drush en speedysito_blocks -y
-# Path
-drush en speedysito_path -y
 # Appearance
 drush en speedysito_appearance -y
 
+
+# ADVANCED
+# Path
+drush en speedysito_path -y
 
 # UI
 
