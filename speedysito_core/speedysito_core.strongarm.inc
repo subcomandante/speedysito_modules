@@ -20,13 +20,6 @@ function speedysito_core_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'cron_key';
-  $strongarm->value = 'RgoOFNJkHYto2l82FdM3k26rZHv4s7geKjaMM7lxPA8';
-  $export['cron_key'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'file_temporary_path';
   $strongarm->value = '/tmp';
   $export['file_temporary_path'] = $strongarm;
