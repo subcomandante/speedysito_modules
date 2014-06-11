@@ -48,10 +48,7 @@ function speedysito_structure_user_default_permissions() {
   // Exported permission: 'view any block bean'.
   $permissions['view any block bean'] = array(
     'name' => 'view any block bean',
-    'roles' => array(
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
+    'roles' => array(),
     'module' => 'bean',
   );
 

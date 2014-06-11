@@ -37,7 +37,7 @@ function speedysito_structure_node_info() {
       'base' => 'node_content',
       'description' => t('La tua o le tue sedi.'),
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Titolo'),
       'help' => '',
     ),
     'webform' => array(
