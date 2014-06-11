@@ -114,19 +114,17 @@ cd ../../..
 drush en speedysito_setup -y
 drush en speedysito_garbage -y
 
-	drush en speedysito_core -y
+# CORE
+drush en speedysito_core -y
 
-	# CONTENT
-		# Blocks
-		drush en speedysito_blocks -y
-
-		# Path
-		drush en speedysito_path -y
-
-		# Appearance
-		drush en speedysito_appearance -y
-
-	# UI
+# CONTENT
+# Blocks
+drush en speedysito_blocks -y
+# Path
+drush en speedysito_path -y
+# Appearance
+drush en speedysito_appearance -y
+# UI
 
 
 # SKINR DEV because of features integration (current 7.x-2.0-beta1 doesn't support features) (NOT USEFUL ATM)
