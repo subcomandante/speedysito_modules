@@ -34,13 +34,6 @@ function speedysito_core_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n70j4q';
-  $export['css_js_query_string'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'file_temporary_path';
   $strongarm->value = '/tmp';
   $export['file_temporary_path'] = $strongarm;
