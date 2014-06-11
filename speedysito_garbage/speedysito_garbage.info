@@ -11,6 +11,7 @@ features[features_api][] = api:2
 features[variable][] = cron_key
 features[variable][] = cron_last
 features[variable][] = css_js_query_string
+features[variable][] = drupal_private_key
 features[variable][] = features_codecache
 features[variable][] = install_time
 features[variable][] = update_last_check
