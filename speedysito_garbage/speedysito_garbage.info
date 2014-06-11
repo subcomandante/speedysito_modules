@@ -1,0 +1,13 @@
+name = SpeedySito Garbage
+description = SpeedySito garbage.
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_garbage
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = css_js_query_string
+features[variable][] = features_codecache
+features[variable][] = update_last_check

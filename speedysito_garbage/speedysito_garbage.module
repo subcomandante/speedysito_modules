@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SpeedySito Garbage feature.
+ */
+
+include_once 'speedysito_garbage.features.inc';
