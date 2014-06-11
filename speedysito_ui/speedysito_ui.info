@@ -4,6 +4,7 @@ core = 7.x
 package = SpeedySito
 version = 7.x-1.0-alpha1
 project = speedysito_ui
+dependencies[] = bean_admin_ui
 dependencies[] = contextual
 dependencies[] = features
 dependencies[] = navbar
