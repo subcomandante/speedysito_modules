@@ -1,0 +1,13 @@
+name = SpeedySito Appearance Panels
+description = Speedysito appearance using panels.
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_appearance_panels
+dependencies[] = ctools
+dependencies[] = panels
+dependencies[] = panels_ipe
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = panels_renderer_default
