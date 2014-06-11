@@ -42,6 +42,7 @@ features[variable][] = pathauto_punctuation_hyphen
 features[variable][] = pathauto_taxonomy_term_pattern
 features[variable][] = pathauto_user_pattern
 features[variable][] = update_notify_emails
+features[variable][] = user_register
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][features] = features
 no autodetect = 1
