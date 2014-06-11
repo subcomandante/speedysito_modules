@@ -133,7 +133,7 @@ drush en speedysito_appearance -y
 drush en speedysito_path -y
 
 # UI
-drush en speedysito_administration -y
+drush en speedysito_ui -y
 
 
 # SKINR DEV because of features integration (current 7.x-2.0-beta1 doesn't support features) (NOT USEFUL ATM)
