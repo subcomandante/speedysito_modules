@@ -5,6 +5,7 @@ package = SpeedySito
 version = 7.x-1.0-alpha1
 project = speedysito_content
 dependencies[] = ctools
+dependencies[] = entity
 dependencies[] = features
 dependencies[] = node
 dependencies[] = strongarm
