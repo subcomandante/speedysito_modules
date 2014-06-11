@@ -1,0 +1,7 @@
+name = SpeedySito UI
+description = SpeedySito user interface
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_ui
+features[features_api][] = api:2
