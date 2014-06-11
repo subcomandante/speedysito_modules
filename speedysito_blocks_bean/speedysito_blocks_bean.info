@@ -1,0 +1,7 @@
+name = SpeedySito Blocks Bean
+description = SpeedySito bean integration
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_blocks_bean
+features[features_api][] = api:2
