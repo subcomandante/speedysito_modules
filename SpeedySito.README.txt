@@ -127,6 +127,7 @@ drush en speedysito_blocks -y
 drush en speedysito_blocks_bean -y           # Faulty features integration on bean all
 # Appearance
 drush en speedysito_appearance -y
+drush dl layout-7.x-1.x-dev
 drush en speedysito_appearance_panels -y
 
 # ADVANCED
