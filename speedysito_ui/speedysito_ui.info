@@ -8,6 +8,7 @@ dependencies[] = bean_admin_ui
 dependencies[] = contextual
 dependencies[] = ctools
 dependencies[] = features
+dependencies[] = field_ui
 dependencies[] = module_filter
 dependencies[] = navbar
 dependencies[] = responsive_preview
