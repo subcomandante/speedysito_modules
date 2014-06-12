@@ -28,7 +28,7 @@ function speedysito_garbage_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n713un';
+  $strongarm->value = 'n71skg';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -56,7 +56,7 @@ function speedysito_garbage_strongarm() {
       'dependencies' => '4cf0fd71cab88b1fa212de432cc0a7cf',
     ),
     'speedysito_garbage' => array(
-      'variable' => 'f48c9d6877861daefaf02db39077a671',
+      'variable' => 'e7ad1acf28ae131ba70d7b3df0087e0e',
       'dependencies' => 'e410ca96d90029817c7bb9c7cb1f7ea4',
     ),
     'speedysito_core' => array(
@@ -94,7 +94,12 @@ function speedysito_garbage_strongarm() {
     'speedysito_ui' => array(
       'user_permission' => '00c1089238827a3b7a7ba27e45b11ed4',
       'dependencies' => 'c00a0a07217e0bab6d2682aadcb0cdef',
-      'variable' => '3244be7ffad111a9f7dd431b9458839e',
+      'variable' => '6dc4bf7720e71f0eed8681ea1f927829',
+    ),
+    'speedysito_appearance_panels' => array(
+      'variable' => 'e0f25b850cd9d92828224f6db09823ac',
+      'dependencies' => 'f283a6dfc908cf0198a19adc5ab26f06',
+      'user_permission' => 'e5d16d8a9878a35d97132791b4ccd868',
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -111,36 +116,58 @@ function speedysito_garbage_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_masks';
   $strongarm->value = array(
-    0 => 245,
-    1 => 125,
-    2 => 124,
-    3 => 122,
-    4 => 121,
-    5 => 63,
-    6 => 62,
-    7 => 61,
-    8 => 60,
-    9 => 45,
-    10 => 44,
-    11 => 31,
-    12 => 30,
-    13 => 29,
-    14 => 24,
-    15 => 23,
-    16 => 22,
-    17 => 21,
-    18 => 15,
-    19 => 14,
-    20 => 11,
-    21 => 10,
-    22 => 7,
-    23 => 6,
-    24 => 5,
-    25 => 3,
-    26 => 2,
-    27 => 1,
+    0 => 493,
+    1 => 485,
+    2 => 253,
+    3 => 247,
+    4 => 246,
+    5 => 245,
+    6 => 243,
+    7 => 242,
+    8 => 127,
+    9 => 126,
+    10 => 125,
+    11 => 124,
+    12 => 123,
+    13 => 122,
+    14 => 121,
+    15 => 63,
+    16 => 62,
+    17 => 61,
+    18 => 60,
+    19 => 58,
+    20 => 45,
+    21 => 44,
+    22 => 31,
+    23 => 30,
+    24 => 29,
+    25 => 24,
+    26 => 23,
+    27 => 22,
+    28 => 21,
+    29 => 15,
+    30 => 14,
+    31 => 11,
+    32 => 10,
+    33 => 7,
+    34 => 6,
+    35 => 5,
+    36 => 3,
+    37 => 2,
+    38 => 1,
   );
   $export['menu_masks'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'module_filter_recent_modules';
+  $strongarm->value = array(
+    'uuid' => 1402530942,
+    'uuid_path' => 1402530942,
+    'panelizer' => 1402563037,
+  );
+  $export['module_filter_recent_modules'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

@@ -25,7 +25,6 @@ features[user_permission][] = edit skin settings
 features[variable][] = module_filter_count_enabled
 features[variable][] = module_filter_dynamic_save_position
 features[variable][] = module_filter_hide_empty_tabs
-features[variable][] = module_filter_recent_modules
 features[variable][] = module_filter_remember_active_tab
 features[variable][] = module_filter_remember_update_state
 features[variable][] = module_filter_set_focus

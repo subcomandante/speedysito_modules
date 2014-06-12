@@ -17,11 +17,25 @@ function speedysito_appearance_panels_user_default_permissions() {
     'module' => 'panels',
   );
 
+  // Exported permission: 'administer page manager'.
+  $permissions['administer page manager'] = array(
+    'name' => 'administer page manager',
+    'roles' => array(),
+    'module' => 'page_manager',
+  );
+
   // Exported permission: 'administer pane access'.
   $permissions['administer pane access'] = array(
     'name' => 'administer pane access',
     'roles' => array(),
     'module' => 'panels',
+  );
+
+  // Exported permission: 'administer panelizer'.
+  $permissions['administer panelizer'] = array(
+    'name' => 'administer panelizer',
+    'roles' => array(),
+    'module' => 'panelizer',
   );
 
   // Exported permission: 'administer panels layouts'.
@@ -50,6 +64,13 @@ function speedysito_appearance_panels_user_default_permissions() {
     'name' => 'use ipe with page manager',
     'roles' => array(),
     'module' => 'panels',
+  );
+
+  // Exported permission: 'use page manager'.
+  $permissions['use page manager'] = array(
+    'name' => 'use page manager',
+    'roles' => array(),
+    'module' => 'page_manager',
   );
 
   // Exported permission: 'use panels caching features'.

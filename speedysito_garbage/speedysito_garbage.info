@@ -16,4 +16,5 @@ features[variable][] = drupal_private_key
 features[variable][] = features_codecache
 features[variable][] = install_time
 features[variable][] = menu_masks
+features[variable][] = module_filter_recent_modules
 features[variable][] = update_last_check
