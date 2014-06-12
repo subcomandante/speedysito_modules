@@ -17,6 +17,13 @@ function speedysito_setup_user_default_permissions() {
     'module' => 'features',
   );
 
+  // Exported permission: 'administer uuid'.
+  $permissions['administer uuid'] = array(
+    'name' => 'administer uuid',
+    'roles' => array(),
+    'module' => 'uuid',
+  );
+
   // Exported permission: 'generate features'.
   $permissions['generate features'] = array(
     'name' => 'generate features',
