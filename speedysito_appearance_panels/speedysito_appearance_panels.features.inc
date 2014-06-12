@@ -11,6 +11,9 @@ function speedysito_appearance_panels_ctools_plugin_api($module = NULL, $api = N
   if ($module == "layout" && $api == "default_layout_breakpoint") {
     return array("version" => "1");
   }
+  if ($module == "layout" && $api == "default_layout_region") {
+    return array("version" => "1");
+  }
   if ($module == "panelizer" && $api == "panelizer") {
     return array("version" => "1");
   }
