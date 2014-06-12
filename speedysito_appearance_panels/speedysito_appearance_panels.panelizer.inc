@@ -30,7 +30,7 @@ function speedysito_appearance_panels_panelizer_defaults() {
   $panelizer->link_to_entity = TRUE;
   $panelizer->extra = array();
   $display = new panels_display();
-  $display->layout = 'responsive';
+  $display->layout = 'responsive:default';
   $display->layout_settings = array(
     'regions' => array(
       'header_a' => 'header_a',
@@ -69,6 +69,10 @@ function speedysito_appearance_panels_panelizer_defaults() {
       'footer_a' => NULL,
       'footer_b' => NULL,
       'footer_c' => NULL,
+      'header_top' => NULL,
+      'header' => NULL,
+      'header_bottom' => NULL,
+      'preface' => NULL,
     ),
   );
   $display->cache = array();
@@ -78,7 +82,7 @@ function speedysito_appearance_panels_panelizer_defaults() {
   $display->panels = array();
     $pane = new stdClass();
     $pane->pid = 'new-08624ce2-c454-44e4-87da-7dab1841ca4d';
-    $pane->panel = 'header_a';
+    $pane->panel = 'header_top';
     $pane->type = 'node_links';
     $pane->subtype = 'node_links';
     $pane->shown = TRUE;
@@ -103,7 +107,7 @@ function speedysito_appearance_panels_panelizer_defaults() {
     $pane->locks = array();
     $pane->uuid = '08624ce2-c454-44e4-87da-7dab1841ca4d';
     $display->content['new-08624ce2-c454-44e4-87da-7dab1841ca4d'] = $pane;
-    $display->panels['header_a'][0] = 'new-08624ce2-c454-44e4-87da-7dab1841ca4d';
+    $display->panels['header_top'][0] = 'new-08624ce2-c454-44e4-87da-7dab1841ca4d';
   $display->hide_title = PANELS_TITLE_PANE;
   $display->title_pane = 'new-08624ce2-c454-44e4-87da-7dab1841ca4d';
   $panelizer->display = $display;
