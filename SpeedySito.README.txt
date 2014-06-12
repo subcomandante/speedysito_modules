@@ -115,6 +115,7 @@ drush en speedysito_setup -y
 drush en speedysito_garbage -y
 
 # CORE
+drush dl uuid-7.x-1.x-dev
 drush en speedysito_core -y
 
 # CONTENT
@@ -134,6 +135,10 @@ drush en speedysito_path -y
 
 # UI
 drush en speedysito_ui -y
+
+
+
+###########################################à
 
 
 # SKINR DEV because of features integration (current 7.x-2.0-beta1 doesn't support features) (NOT USEFUL ATM)
