@@ -21,15 +21,22 @@ function speedysito_garbage_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1402528872;
+  $strongarm->value = 1402561686;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n712sr';
+  $strongarm->value = 'n713un';
   $export['css_js_query_string'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ctools_last_cron';
+  $strongarm->value = 1402561687;
+  $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -45,11 +52,11 @@ function speedysito_garbage_strongarm() {
   $strongarm->value = array(
     'speedysito_setup' => array(
       'variable' => '6089279e6942bb54a24ab959b6549033',
-      'user_permission' => '645a35939d5b23acb9012fda5834b4c3',
-      'dependencies' => '97d75bee18ecc30f0a3aa0031417fefb',
+      'user_permission' => '1a0a050b6b60339b4cd4724206cf7311',
+      'dependencies' => '4cf0fd71cab88b1fa212de432cc0a7cf',
     ),
     'speedysito_garbage' => array(
-      'variable' => 'd496ea0d51eb3f37f4c853f1b135c7b1',
+      'variable' => 'f48c9d6877861daefaf02db39077a671',
       'dependencies' => 'e410ca96d90029817c7bb9c7cb1f7ea4',
     ),
     'speedysito_core' => array(
@@ -85,8 +92,9 @@ function speedysito_garbage_strongarm() {
       'dependencies' => '7cddc989e8f406802aa800ccaadb4cdb',
     ),
     'speedysito_ui' => array(
-      'user_permission' => '1694b22015f122df57520fd0c13069df',
-      'dependencies' => 'ad0fbe6fe6e8b7e3e7347da869b07d0b',
+      'user_permission' => '00c1089238827a3b7a7ba27e45b11ed4',
+      'dependencies' => 'c00a0a07217e0bab6d2682aadcb0cdef',
+      'variable' => '3244be7ffad111a9f7dd431b9458839e',
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -138,7 +146,7 @@ function speedysito_garbage_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1402528876;
+  $strongarm->value = 1402561712;
   $export['update_last_check'] = $strongarm;
 
   return $export;
