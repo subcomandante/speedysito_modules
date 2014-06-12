@@ -127,7 +127,7 @@ drush en speedysito_blocks -y
 drush en speedysito_blocks_bean -y           # Faulty features integration on bean all
 # Appearance
 drush en speedysito_appearance -y
-
+drush en speedysito_appearance_panels -y
 
 # ADVANCED
 # Path
