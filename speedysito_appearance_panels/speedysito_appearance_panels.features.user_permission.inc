@@ -17,6 +17,13 @@ function speedysito_appearance_panels_user_default_permissions() {
     'module' => 'panels',
   );
 
+  // Exported permission: 'administer gridbuilder'.
+  $permissions['administer gridbuilder'] = array(
+    'name' => 'administer gridbuilder',
+    'roles' => array(),
+    'module' => 'gridbuilder',
+  );
+
   // Exported permission: 'administer page manager'.
   $permissions['administer page manager'] = array(
     'name' => 'administer page manager',
