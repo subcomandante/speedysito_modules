@@ -38,6 +38,48 @@ function speedysito_appearance_panels_user_default_permissions() {
     'module' => 'panelizer',
   );
 
+  // Exported permission: 'administer panelizer node page content'.
+  $permissions['administer panelizer node page content'] = array(
+    'name' => 'administer panelizer node page content',
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer node page context'.
+  $permissions['administer panelizer node page context'] = array(
+    'name' => 'administer panelizer node page context',
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer node page defaults'.
+  $permissions['administer panelizer node page defaults'] = array(
+    'name' => 'administer panelizer node page defaults',
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer node page layout'.
+  $permissions['administer panelizer node page layout'] = array(
+    'name' => 'administer panelizer node page layout',
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer node page overview'.
+  $permissions['administer panelizer node page overview'] = array(
+    'name' => 'administer panelizer node page overview',
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
+  // Exported permission: 'administer panelizer node page settings'.
+  $permissions['administer panelizer node page settings'] = array(
+    'name' => 'administer panelizer node page settings',
+    'roles' => array(),
+    'module' => 'panelizer',
+  );
+
   // Exported permission: 'administer panels layouts'.
   $permissions['administer panels layouts'] = array(
     'name' => 'administer panels layouts',
