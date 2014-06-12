@@ -130,6 +130,8 @@ drush en speedysito_appearance -y
 drush dl layout-7.x-1.x-dev
 drush dl gridbuilder-7.x-1.x-dev
 drush en speedysito_appearance_panels -y
+# WYSIWYG
+drush en speedysito_editor -y
 
 # ADVANCED
 # Path
