@@ -52,7 +52,6 @@ features[variable][] = filter_fallback_format
 features[variable][] = install_profile
 features[variable][] = install_task
 features[variable][] = menu_expanded
-features[variable][] = path_alias_whitelist
 features[variable][] = update_notify_emails
 features[variable][] = user_register
 features_exclude[dependencies][ctools] = ctools
