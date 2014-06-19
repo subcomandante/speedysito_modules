@@ -8,6 +8,9 @@
  * Implements hook_ctools_plugin_api().
  */
 function speedysito_deploy_common_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "context" && $api == "context") {
+    return array("version" => "3");
+  }
   if ($module == "deploy" && $api == "deploy_plans") {
     return array("version" => "1");
   }
