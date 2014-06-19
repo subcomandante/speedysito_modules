@@ -140,7 +140,9 @@ drush en speedysito_path -y
 # UI
 drush en speedysito_ui -y                    # User interface (jquery_update,modules UIs)
 
-
+# EXPORT
+drush dl entity_dependency-7.x-1.x-dev
+drush en speedysito_export -y
 
 ###########################################à
 
