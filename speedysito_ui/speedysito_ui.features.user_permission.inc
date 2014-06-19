@@ -24,6 +24,13 @@ function speedysito_ui_user_default_permissions() {
     'module' => 'navbar',
   );
 
+  // Exported permission: 'administer contexts'.
+  $permissions['administer contexts'] = array(
+    'name' => 'administer contexts',
+    'roles' => array(),
+    'module' => 'context_ui',
+  );
+
   // Exported permission: 'administer module filter'.
   $permissions['administer module filter'] = array(
     'name' => 'administer module filter',
@@ -36,6 +43,13 @@ function speedysito_ui_user_default_permissions() {
     'name' => 'administer skinr',
     'roles' => array(),
     'module' => 'skinr_ui',
+  );
+
+  // Exported permission: 'context ajax block access'.
+  $permissions['context ajax block access'] = array(
+    'name' => 'context ajax block access',
+    'roles' => array(),
+    'module' => 'context_ui',
   );
 
   // Exported permission: 'edit advanced skin settings'.
