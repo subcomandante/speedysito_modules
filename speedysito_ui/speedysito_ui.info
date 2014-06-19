@@ -14,6 +14,7 @@ dependencies[] = jquery_update
 dependencies[] = module_filter
 dependencies[] = navbar
 dependencies[] = responsive_preview
+dependencies[] = simplify
 dependencies[] = skinr_ui
 dependencies[] = strongarm
 dependencies[] = views_ui

@@ -144,7 +144,9 @@ drush en speedysito_ui -y                    # User interface (jquery_update,mod
 drush dl entity_dependency-7.x-1.x-dev
 drush en speedysito_export -y
 
-
+# USERS
+drush user-add-role "Site manager" manager
+drush user-add-role "Content editor" editor
 
 
 # Setting web permissions
