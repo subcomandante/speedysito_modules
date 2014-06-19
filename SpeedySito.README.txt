@@ -113,7 +113,7 @@ cd ../../..
 # SETUP
 drush dl uuid-7.x-1.x-dev                    # Fix some export issues (e.g. module_filter)
 drush en speedysito_setup -y
-drush en speedysito_garbage -y
+drush en speedysito_garbage -y               # Keep track of unused variables
 
 # CORE
 drush en speedysito_core -y
@@ -127,9 +127,9 @@ drush en speedysito_blocks -y                # Drupal core blocks (needed to sho
 drush en speedysito_blocks_bean -y           # Faulty features integration on bean all
 # Appearance
 drush en speedysito_appearance -y            # Skinr, Ext links
-drush dl layout-7.x-1.x-dev
-drush dl gridbuilder-7.x-1.x-dev
-drush en speedysito_appearance_panels -y
+##drush dl layout-7.x-1.x-dev
+##drush dl gridbuilder-7.x-1.x-dev
+##drush en speedysito_appearance_panels -y
 # WYSIWYG
 drush en speedysito_editor -y
 
@@ -138,7 +138,7 @@ drush en speedysito_editor -y
 drush en speedysito_path -y
 
 # UI
-drush en speedysito_ui -y
+drush en speedysito_ui -y                    # User interface (jquery_update,modules UIs)
 
 
 
@@ -456,5 +456,10 @@ Panels -> Style (on each reion?) -> system block
 Panelizer
 
 
+
+
+
+SEMPLIFICAZIONI:
+Disabilitando il modulo Block di Core (Drupal) cercando di usare solo bean + context, non compare il contextual link di skinr, quindi al momento sono obbligato ad abilitare block e disabilitare i permessi.
 
 
