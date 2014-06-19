@@ -48,7 +48,6 @@ features[user_permission][] = view revisions
 features[user_permission][] = view the administration theme
 features[user_role][] = Content editor
 features[user_role][] = Site manager
-features[variable][] = context_block_rebuild_needed
 features[variable][] = context_reaction_block_all_regions
 features[variable][] = context_reaction_debug_enable_global
 features[variable][] = file_temporary_path
