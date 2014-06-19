@@ -1,0 +1,11 @@
+name = SpeedySito Deploy Common
+core = 7.x
+package = SpeedySito
+version = 7.x-1.0-alpha1
+project = speedysito_deploy_common
+dependencies[] = ctools
+dependencies[] = deploy
+features[ctools][] = deploy:deploy_plans:1
+features[deploy_plans][] = common
+features[features_api][] = api:2
+features[uuid_entities][] = common
