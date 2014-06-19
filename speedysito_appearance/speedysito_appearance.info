@@ -8,5 +8,6 @@ dependencies[] = extlink
 dependencies[] = skinr
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
+features[variable][] = admin_theme
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][strongarm] = strongarm
