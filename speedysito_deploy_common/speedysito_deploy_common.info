@@ -3,6 +3,7 @@ core = 7.x
 package = SpeedySito
 version = 7.x-1.0-alpha1
 project = speedysito_deploy_common
+dependencies[] = blockify
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = deploy

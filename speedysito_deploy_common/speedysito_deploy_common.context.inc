@@ -23,7 +23,25 @@ function speedysito_deploy_common_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'blockify-blockify-logo' => array(
+          'module' => 'blockify',
+          'delta' => 'blockify-logo',
+          'region' => 'header',
+          'weight' => 0,
+        ),
+      ),
+    ),
+    'theme' => array(
+      'title' => '',
+      'subtitle' => '',
+    ),
+    'theme_html' => array(
+      'class' => '',
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
@@ -45,7 +63,15 @@ function speedysito_deploy_common_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'theme' => array(
+      'title' => '',
+      'subtitle' => '',
+    ),
+    'theme_html' => array(
+      'class' => '',
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
