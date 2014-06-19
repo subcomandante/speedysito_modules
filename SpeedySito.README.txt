@@ -122,11 +122,11 @@ drush en speedysito_core -y
 # Content types
 drush dl webform-7.x-4.0-rc3 -y              # Not stable yet, so manual download
 drush en speedysito_content -y               # Content types
-# Blocks
-drush en speedysito_blocks -y
+# BLOCKS
+drush en speedysito_blocks -y                # Drupal core blocks (needed to show skins contextual links.. investigate)
 drush en speedysito_blocks_bean -y           # Faulty features integration on bean all
 # Appearance
-drush en speedysito_appearance -y
+drush en speedysito_appearance -y            # Skinr, Ext links
 drush dl layout-7.x-1.x-dev
 drush dl gridbuilder-7.x-1.x-dev
 drush en speedysito_appearance_panels -y
@@ -446,7 +446,14 @@ zen -> Tema base (Speedysito) -> Tema personalizzato (Speedysito Restaurant) -> 
 in questo modo basta solo modificare la dipendenza del tema helper per cambiare tema pur mantenendo un nome comune per fe_block, etc.. ???
 
 
+Panels
+Panels in place editor
+Chaos -> page manager
 
+
+Panels -> Style (on each reion?) -> system block
+
+Panelizer
 
 
 
