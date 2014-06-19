@@ -13,6 +13,13 @@ function speedysito_ui_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'context_ui_dialog_enabled';
+  $strongarm->value = 1;
+  $export['context_ui_dialog_enabled'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'jquery_update_compression_type';
   $strongarm->value = 'min';
   $export['jquery_update_compression_type'] = $strongarm;
@@ -35,7 +42,7 @@ function speedysito_ui_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'jquery_update_jquery_version';
-  $strongarm->value = '1.8';
+  $strongarm->value = '1.5';
   $export['jquery_update_jquery_version'] = $strongarm;
 
   $strongarm = new stdClass();
