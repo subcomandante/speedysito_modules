@@ -474,3 +474,21 @@ SEMPLIFICAZIONI:
 Disabilitando il modulo Block di Core (Drupal) cercando di usare solo bean + context, non compare il contextual link di skinr, quindi al momento sono obbligato ad abilitare block e disabilitare i permessi.
 
 
+
+
+============================================
+TEMPLATES
+	REA - Ristorazione e Alberghi
+		speedysito_ria_01
+
+	ABM - Abbigliamento e moda
+		
+
+	ARM - Arte e musica
+		speedysito_arm
+
+	AEM - Auto e moto
+		
+
+
+
