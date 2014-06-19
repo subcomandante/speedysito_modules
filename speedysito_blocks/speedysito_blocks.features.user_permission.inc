@@ -10,6 +10,13 @@
 function speedysito_blocks_user_default_permissions() {
   $permissions = array();
 
+  // Exported permission: 'administer blockify'.
+  $permissions['administer blockify'] = array(
+    'name' => 'administer blockify',
+    'roles' => array(),
+    'module' => 'blockify',
+  );
+
   // Exported permission: 'administer blocks'.
   $permissions['administer blocks'] = array(
     'name' => 'administer blocks',

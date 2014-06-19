@@ -149,7 +149,7 @@ drush user-add-role "Site manager" manager
 drush user-add-role "Content editor" editor
 
 
-# Setting web permissions
+# LOCAL PERMISSIONS
 cd ..
 chown -R www-data:www-data www
 
