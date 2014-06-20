@@ -32,6 +32,12 @@ function speedysito_deploy_common_context_default_contexts() {
           'region' => 'header',
           'weight' => 0,
         ),
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'header_bottom',
+          'weight' => 0,
+        ),
       ),
     ),
     'theme' => array(
