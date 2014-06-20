@@ -491,4 +491,9 @@ TEMPLATES
 		
 
 
+==============================================
+CSS COMPATIBILITY
+http://www.quirksmode.org/css/css2/display.html
+
+
 
