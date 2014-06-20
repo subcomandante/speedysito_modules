@@ -38,6 +38,13 @@ function speedysito_content_user_default_permissions() {
     'module' => 'webform',
   );
 
+  // Exported permission: 'administer page titles'.
+  $permissions['administer page titles'] = array(
+    'name' => 'administer page titles',
+    'roles' => array(),
+    'module' => 'page_title',
+  );
+
   // Exported permission: 'administer views'.
   $permissions['administer views'] = array(
     'name' => 'administer views',
@@ -141,6 +148,13 @@ function speedysito_content_user_default_permissions() {
     'name' => 'edit own webform submissions',
     'roles' => array(),
     'module' => 'webform',
+  );
+
+  // Exported permission: 'set page title'.
+  $permissions['set page title'] = array(
+    'name' => 'set page title',
+    'roles' => array(),
+    'module' => 'page_title',
   );
 
   return $permissions;
