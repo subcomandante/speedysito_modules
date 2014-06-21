@@ -496,4 +496,11 @@ CSS COMPATIBILITY
 http://www.quirksmode.org/css/css2/display.html
 
 
+==============================================
+Newsletter
+speedysito_content_newsletter
+mimemail	HTML email (drupal mail system integration)
+simplenews	Newsletter
+
+
 
