@@ -129,5 +129,33 @@ function speedysito_ui_strongarm() {
   $strongarm->value = '20';
   $export['mpac_max_items'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplify_nodes_global';
+  $strongarm->value = array();
+  $export['simplify_nodes_global'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplify_nodes_page';
+  $strongarm->value = array();
+  $export['simplify_nodes_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplify_nodes_webform';
+  $strongarm->value = array();
+  $export['simplify_nodes_webform'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplify_users_global';
+  $strongarm->value = array();
+  $export['simplify_users_global'] = $strongarm;
+
   return $export;
 }

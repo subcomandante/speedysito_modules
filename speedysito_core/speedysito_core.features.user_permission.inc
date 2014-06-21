@@ -118,6 +118,13 @@ function speedysito_core_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'administer taxonomy'.
+  $permissions['administer taxonomy'] = array(
+    'name' => 'administer taxonomy',
+    'roles' => array(),
+    'module' => 'taxonomy',
+  );
+
   // Exported permission: 'administer themes'.
   $permissions['administer themes'] = array(
     'name' => 'administer themes',

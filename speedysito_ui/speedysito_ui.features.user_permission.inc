@@ -38,6 +38,13 @@ function speedysito_ui_user_default_permissions() {
     'module' => 'module_filter',
   );
 
+  // Exported permission: 'administer simplify'.
+  $permissions['administer simplify'] = array(
+    'name' => 'administer simplify',
+    'roles' => array(),
+    'module' => 'simplify',
+  );
+
   // Exported permission: 'administer skinr'.
   $permissions['administer skinr'] = array(
     'name' => 'administer skinr',
@@ -64,6 +71,13 @@ function speedysito_ui_user_default_permissions() {
     'name' => 'edit skin settings',
     'roles' => array(),
     'module' => 'skinr_ui',
+  );
+
+  // Exported permission: 'view hidden fields'.
+  $permissions['view hidden fields'] = array(
+    'name' => 'view hidden fields',
+    'roles' => array(),
+    'module' => 'simplify',
   );
 
   return $permissions;
