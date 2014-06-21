@@ -38,9 +38,37 @@ function speedysito_blocks_bean_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any block_standard bean'.
+  $permissions['create any block_standard bean'] = array(
+    'name' => 'create any block_standard bean',
+    'roles' => array(),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'delete any block_standard bean'.
+  $permissions['delete any block_standard bean'] = array(
+    'name' => 'delete any block_standard bean',
+    'roles' => array(),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'edit any block_standard bean'.
+  $permissions['edit any block_standard bean'] = array(
+    'name' => 'edit any block_standard bean',
+    'roles' => array(),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'edit bean view mode'.
   $permissions['edit bean view mode'] = array(
     'name' => 'edit bean view mode',
+    'roles' => array(),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view any block_standard bean'.
+  $permissions['view any block_standard bean'] = array(
+    'name' => 'view any block_standard bean',
     'roles' => array(),
     'module' => 'bean',
   );
