@@ -7,6 +7,7 @@ project = speedysito_content
 dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = features
+dependencies[] = menu_firstchild
 dependencies[] = node
 dependencies[] = page_title
 dependencies[] = strongarm
